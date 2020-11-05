@@ -5,7 +5,15 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_PcICsB99EeuQEcyLUe-Oig",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
     "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataMasking",
     "version" : "Latest",
     "type" : "routine"
   }, {
@@ -17,19 +25,11 @@
     "version" : "Latest",
     "type" : "routine"
   }, {
-    "id" : "DemoRoutines",
+    "id" : "DataQualityDependencies",
     "version" : "Latest",
     "type" : "routine"
   }, {
     "id" : "DqStringHandling",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "GetRandomPhoneNum",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MDM",
     "version" : "Latest",
     "type" : "routine"
   }, {
@@ -62,6 +62,10 @@
     "type" : "routine"
   }, {
     "id" : "TalendString",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
   } ]
