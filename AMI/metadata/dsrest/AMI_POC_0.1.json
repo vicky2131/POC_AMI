@@ -1,0 +1,83 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "Exposing the ami_interval data via api cal",
+    "version" : "2.0.0",
+    "title" : "AMI_POC",
+    "termsOfService" : "",
+    "contact" : { }
+  },
+  "host" : "bietldevar01.gmpvt.net",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/intervaldata/" : {
+      "get" : {
+        "summary" : "Load Allevents",
+        "parameters" : [ {
+          "name" : "est_startdt",
+          "in" : "header",
+          "required" : true,
+          "type" : "string",
+          "description" : "start date of the data"
+        }, {
+          "name" : "est_enddt",
+          "in" : "header",
+          "required" : true,
+          "type" : "string",
+          "description" : "End date of a data"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ ]
+    }
+  },
+  "securityDefinitions" : {
+    "HTTP_BASIC" : {
+      "description" : "All GET methods are public, meaning that *you can read all the data*. Write operations require authentication and therefore are forbidden to the general public.",
+      "type" : "basic"
+    }
+  },
+  "definitions" : {
+    "Error" : {
+      "type" : "object",
+      "required" : [ "code" ],
+      "properties" : {
+        "code" : {
+          "type" : "integer",
+          "minimum" : 400,
+          "maximum" : 599
+        },
+        "description" : {
+          "type" : "string",
+          "example" : "Bad query parameter [$size]: Invalid integer value [abc]"
+        },
+        "reasonPhrase" : {
+          "type" : "string",
+          "example" : "Bad Request"
+        }
+      },
+      "description" : "This general error structure is used throughout this API.",
+      "example" : "{\n  \"code\": 400,\n  \"description\": \"Bad query parameter [$size]: Invalid integer value [abc]\",\n  \"reasonPhrase\": \"Bad Request\"\n}"
+    },
+    "date" : {
+      "type" : "object",
+      "required" : [ "est_enddt", "est_startdt" ],
+      "properties" : {
+        "est_startdt" : {
+          "type" : "string",
+          "description" : "start date"
+        },
+        "est_enddt" : {
+          "type" : "string",
+          "description" : "end date"
+        }
+      }
+    }
+  }
+}
