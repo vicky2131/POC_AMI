@@ -25,18 +25,6 @@
           "in" : "query",
           "required" : true,
           "type" : "string"
-        }, {
-          "name" : "est_startdt",
-          "in" : "header",
-          "required" : true,
-          "type" : "string",
-          "description" : "start date of the data"
-        }, {
-          "name" : "est_enddt",
-          "in" : "header",
-          "required" : true,
-          "type" : "string",
-          "description" : "End date of a data"
         } ],
         "responses" : {
           "200" : {
