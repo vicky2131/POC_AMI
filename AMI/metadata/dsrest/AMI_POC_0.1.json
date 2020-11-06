@@ -25,6 +25,16 @@
           "in" : "query",
           "required" : true,
           "type" : "string"
+        }, {
+          "name" : "est_startdt",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "est_enddt",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
         } ],
         "responses" : {
           "200" : {
