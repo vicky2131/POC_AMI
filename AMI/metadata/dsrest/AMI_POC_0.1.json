@@ -16,22 +16,12 @@
       "get" : {
         "summary" : "Load Allevents",
         "parameters" : [ {
-          "name" : "est_startdt",
+          "name" : "accountid",
           "in" : "query",
           "required" : true,
           "type" : "string"
         }, {
-          "name" : "est_enddt",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "est_startdt",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "est_enddt",
+          "name" : "accountid",
           "in" : "header",
           "required" : true,
           "type" : "string"
