@@ -89,6 +89,11 @@
     <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>accessors-smart</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>accessors-smart</artifactId>
       <version>1.2</version>
       <exclusions>
         <exclusion>
@@ -96,11 +101,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>net.minidev</groupId>
-      <artifactId>accessors-smart</artifactId>
-      <version>1.1</version>
     </dependency>
     <dependency>
       <groupId>net.hydromatic</groupId>
@@ -114,9 +114,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>ant</groupId>
+      <groupId>org.apache.ant</groupId>
       <artifactId>ant</artifactId>
-      <version>1.6.5</version>
+      <version>1.9.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -125,9 +125,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.apache.ant</groupId>
+      <groupId>ant</groupId>
       <artifactId>ant</artifactId>
-      <version>1.9.1</version>
+      <version>1.6.5</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -499,6 +499,11 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
       <version>3.7</version>
       <exclusions>
         <exclusion>
@@ -506,11 +511,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-lang3</artifactId>
-      <version>3.8.1</version>
     </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
@@ -1678,9 +1678,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.hk2.external</groupId>
+      <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
-      <version>2.5.0-b32</version>
+      <version>1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1689,9 +1689,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>javax.inject</groupId>
+      <groupId>org.glassfish.hk2.external</groupId>
       <artifactId>javax.inject</artifactId>
-      <version>1</version>
+      <version>2.5.0-b32</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1832,9 +1832,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>com.sun.jersey</groupId>
+      <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-client</artifactId>
-      <version>1.19</version>
+      <version>2.25.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1843,9 +1843,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.jersey.core</groupId>
+      <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-client</artifactId>
-      <version>2.25.1</version>
+      <version>1.19</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2129,9 +2129,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.eclipse.jetty</groupId>
+      <groupId>org.mortbay.jetty</groupId>
       <artifactId>jetty-util</artifactId>
-      <version>9.3.20.v20170531</version>
+      <version>6.1.26.cloudera.4</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2140,9 +2140,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.mortbay.jetty</groupId>
+      <groupId>org.eclipse.jetty</groupId>
       <artifactId>jetty-util</artifactId>
-      <version>6.1.26.cloudera.4</version>
+      <version>9.3.20.v20170531</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2293,9 +2293,9 @@
       <version>2.2.1</version>
     </dependency>
     <dependency>
-      <groupId>javax.servlet.jsp</groupId>
+      <groupId>javax.servlet</groupId>
       <artifactId>jsp-api</artifactId>
-      <version>2.1</version>
+      <version>2.0</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2304,9 +2304,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
+      <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
-      <version>2.0</version>
+      <version>2.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
