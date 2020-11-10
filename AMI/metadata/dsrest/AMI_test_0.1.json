@@ -1,0 +1,47 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "description" : "No description",
+    "version" : "1.0.0",
+    "title" : "AMI_test",
+    "contact" : { }
+  },
+  "host" : "bietldevar01.gmpvt.net:8088",
+  "schemes" : [ "http" ],
+  "consumes" : [ "application/json" ],
+  "produces" : [ "application/json" ],
+  "paths" : {
+    "/amidata/" : {
+      "get" : {
+        "summary" : "latlong",
+        "parameters" : [ {
+          "name" : "latitude",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "longitude",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "prem_id",
+          "in" : "query",
+          "required" : false,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ ]
+    }
+  },
+  "definitions" : {
+    "accountid" : {
+      "type" : "object"
+    }
+  }
+}
