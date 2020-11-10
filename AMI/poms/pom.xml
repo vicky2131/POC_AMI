@@ -19,6 +19,7 @@
     <module>jobs/process/UseCases/creating_rest_service_sf_0.1</module>
     <module>jobs/process/UseCases/updating_acct_number_0.1</module>
     <module>jobs/process/UseCases/SF_Bill_Details/EXISTING_SF_jobs/accnum_salesforce_0.1</module>
+    <module>jobs/process/UseCases/SF_Bill_Details/EXISTING_SF_jobs/person_salesforce_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
