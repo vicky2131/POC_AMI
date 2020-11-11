@@ -98,7 +98,7 @@
     },
     "/acct_id/" : {
       "put" : {
-        "summary" : "updates the salesforce acct ID",
+        "summary" : "copyOfupdates_the_salesforce_acct_ID",
         "parameters" : [ {
           "name" : "CCB_Account_Id__c",
           "in" : "query",
