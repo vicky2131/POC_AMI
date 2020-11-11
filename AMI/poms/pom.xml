@@ -15,6 +15,7 @@
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/demo/demo2_0.1</module>
     <module>jobs/process/demo/ami_data_0.1</module>
+    <module>jobs/process/sfi_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
