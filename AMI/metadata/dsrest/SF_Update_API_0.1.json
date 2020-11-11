@@ -52,6 +52,16 @@
           "in" : "query",
           "required" : false,
           "type" : "string"
+        }, {
+          "name" : "acct_id",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "acct_type",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
         } ],
         "responses" : {
           "200" : {
