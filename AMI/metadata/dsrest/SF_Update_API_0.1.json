@@ -10,17 +10,47 @@
   "schemes" : [ "http" ],
   "consumes" : [ "application/json" ],
   "produces" : [ "application/json" ],
+  "security" : [ {
+    "Basic authentication" : [ ]
+  } ],
   "paths" : {
     "/account_id/" : {
-      "parameters" : [ ]
-    },
-    "/account_id/{acct_id}" : {
       "put" : {
         "summary" : "updates the salesforce acct ID",
         "parameters" : [ {
           "name" : "acct_id",
           "in" : "query",
           "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "acct_type",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "bill_cyc_cd",
+          "in" : "query",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "bud_plan",
+          "in" : "query",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "cr_score",
+          "in" : "query",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "bill_rte_type_cd",
+          "in" : "query",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "ccb_last_sync",
+          "in" : "query",
+          "required" : false,
           "type" : "string"
         } ],
         "responses" : {
@@ -29,12 +59,37 @@
           }
         }
       },
-      "parameters" : [ {
-        "name" : "acct_id",
-        "in" : "path",
-        "required" : true,
-        "type" : "string"
-      } ]
+      "parameters" : [ ]
+    },
+    "/UserInfo/" : {
+      "put" : {
+        "summary" : "updates the salesforce acct ID",
+        "consumes" : [ ],
+        "parameters" : [ {
+          "name" : "UserInfo",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "body",
+          "in" : "body",
+          "required" : true,
+          "schema" : {
+            "type" : "object"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ ]
+    }
+  },
+  "securityDefinitions" : {
+    "Basic authentication" : {
+      "type" : "basic"
     }
   }
 }
