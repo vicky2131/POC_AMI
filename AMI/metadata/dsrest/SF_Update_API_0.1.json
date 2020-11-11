@@ -18,49 +18,49 @@
       "put" : {
         "summary" : "updates the salesforce acct ID",
         "parameters" : [ {
-          "name" : "acct_id",
+          "name" : "CCB_Account_Id__c",
           "in" : "query",
           "required" : true,
           "type" : "string"
         }, {
-          "name" : "acct_type",
+          "name" : "Customer_Class__c",
           "in" : "query",
           "required" : true,
           "type" : "string"
         }, {
-          "name" : "bill_cyc_cd",
+          "name" : "Bill_Cycle__c",
           "in" : "query",
-          "required" : false,
+          "required" : true,
           "type" : "string"
         }, {
-          "name" : "bud_plan",
+          "name" : "Budget_Plan__c",
           "in" : "query",
-          "required" : false,
+          "required" : true,
           "type" : "string"
         }, {
-          "name" : "cr_score",
+          "name" : "Credit_Rating__c",
           "in" : "query",
-          "required" : false,
+          "required" : true,
           "type" : "string"
         }, {
-          "name" : "bill_rte_type_cd",
+          "name" : "Bill_Route_Type__c",
           "in" : "query",
-          "required" : false,
+          "required" : true,
           "type" : "string"
         }, {
-          "name" : "ccb_last_sync",
+          "name" : "CCB_Last_Sync__c",
           "in" : "query",
-          "required" : false,
+          "required" : true,
           "type" : "string"
         }, {
-          "name" : "acct_id",
+          "name" : "CCB_Account_Id__c",
           "in" : "header",
           "required" : true,
           "type" : "string"
         }, {
           "name" : "acct_type",
           "in" : "header",
-          "required" : true,
+          "required" : false,
           "type" : "string"
         } ],
         "responses" : {
@@ -102,11 +102,6 @@
         "parameters" : [ {
           "name" : "CCB_Account_Id__c",
           "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "CCB_Account_Id__c",
-          "in" : "header",
           "required" : true,
           "type" : "string"
         } ],
