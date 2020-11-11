@@ -95,6 +95,28 @@
         }
       },
       "parameters" : [ ]
+    },
+    "/acct_id/" : {
+      "put" : {
+        "summary" : "updates the salesforce acct ID",
+        "parameters" : [ {
+          "name" : "CCB_Account_Id__c",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "CCB_Account_Id__c",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
+      "parameters" : [ ]
     }
   },
   "securityDefinitions" : {
