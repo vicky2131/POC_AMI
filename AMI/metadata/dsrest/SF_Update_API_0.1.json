@@ -18,7 +18,7 @@
       "put" : {
         "summary" : "updates the salesforce acct ID",
         "parameters" : [ {
-          "name" : "Bill_Cycle__c",
+          "name" : "Bill_Cycle",
           "in" : "query",
           "required" : true,
           "type" : "string"
