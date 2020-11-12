@@ -17,41 +17,38 @@
     "/account_id/" : {
       "put" : {
         "summary" : "updates the salesforce acct ID",
+        "consumes" : [ ],
         "parameters" : [ {
-          "name" : "Bill_Cycle__c",
-          "in" : "query",
+          "name" : "body",
+          "in" : "body",
           "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Bill_Route_Type__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Budget_Plan__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "boolean"
-        }, {
-          "name" : "CCB_Account_Id__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "CCB_Last_Sync__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Credit_Rating__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Customer_Class__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
+          "schema" : {
+            "type" : "object",
+            "required" : [ "Bill_Cycle__c", "Bill_Route_Type__c", "Budget_Plan__c", "CCB_Account_Id__c", "CCB_Last_Sync__c", "Credit_Rating__c", "Customer_Class__c" ],
+            "properties" : {
+              "Bill_Cycle__c" : {
+                "type" : "string"
+              },
+              "Bill_Route_Type__c" : {
+                "type" : "string"
+              },
+              "Budget_Plan__c" : {
+                "type" : "boolean"
+              },
+              "CCB_Account_Id__c" : {
+                "type" : "string"
+              },
+              "CCB_Last_Sync__c" : {
+                "type" : "string"
+              },
+              "Credit_Rating__c" : {
+                "type" : "string"
+              },
+              "Customer_Class__c" : {
+                "type" : "string"
+              }
+            }
+          }
         } ],
         "responses" : {
           "200" : {
