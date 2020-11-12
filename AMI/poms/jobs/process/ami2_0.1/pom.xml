@@ -655,26 +655,6 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>cxf-rt-rs-service-description-3.3.4</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>cxf-rt-rs-service-description-common-openapi</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>cxf-rt-rs-service-description-swagger</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>cxf-rt-rs-service-description-swagger-ui</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-security</artifactId>
       <version>3.3.4</version>
@@ -687,11 +667,6 @@
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-transports-http</artifactId>
-      <version>3.3.4</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.cxf</groupId>
-      <artifactId>cxf-rt-transports-http-jetty</artifactId>
       <version>3.3.4</version>
     </dependency>
     <dependency>
@@ -878,11 +853,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>20.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -1621,11 +1591,6 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jackson-annotations</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-annotations</artifactId>
       <version>2.9.5</version>
@@ -1635,11 +1600,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jackson-core</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
@@ -1664,11 +1624,6 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jackson-databind</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
       <artifactId>jackson-databind</artifactId>
       <version>2.9.5</version>
@@ -1678,11 +1633,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jackson-dataformat-yaml</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.codehaus.jackson</groupId>
@@ -1994,11 +1944,6 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>jaxen</groupId>
-      <artifactId>jaxen</artifactId>
-      <version>1.1.6</version>
-    </dependency>
-    <dependency>
       <groupId>com.github.stephenc.jcip</groupId>
       <artifactId>jcip-annotations</artifactId>
       <version>1.0-1</version>
@@ -2200,11 +2145,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jetty-all-9.4.18.v20190429-uber</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
@@ -3065,11 +3005,6 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>reflections</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
       <artifactId>security-common-7.3.1</artifactId>
       <version>6.0.0</version>
     </dependency>
@@ -3099,11 +3034,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>snakeyaml</artifactId>
-      <version>1.24</version>
     </dependency>
     <dependency>
       <groupId>org.iq80.snappy</groupId>
@@ -3186,26 +3116,6 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>stax2-api-3.1.4</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>swagger-annotations</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>swagger-core</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>swagger-jaxrs</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>swagger-models</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -3404,11 +3314,6 @@
       <groupId>org.talend.libraries</groupId>
       <artifactId>txw2-2.3.2</artifactId>
       <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>javax.validation</groupId>
-      <artifactId>validation-api</artifactId>
-      <version>2.0.1.Final</version>
     </dependency>
     <dependency>
       <groupId>javax.validation</groupId>
