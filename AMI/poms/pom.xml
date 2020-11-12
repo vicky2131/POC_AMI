@@ -23,6 +23,7 @@
     <module>jobs/process/UseCases/SF_Bill_Details/EXISTING_SF_jobs/acc_num_sf_0.1</module>
     <module>jobs/process/SF/u1_0.1</module>
     <module>jobs/process/SF/u2_0.1</module>
+    <module>jobs/process/SF/rest_service_job_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
