@@ -27,6 +27,7 @@
     <module>jobs/process/SF/account_number_0.1</module>
     <module>jobs/process/sfi_0.1</module>
     <module>jobs/process/demo/ami_data_0.1</module>
+    <module>jobs/process/SF/u3_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
