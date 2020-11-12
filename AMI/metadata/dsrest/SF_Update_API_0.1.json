@@ -58,50 +58,33 @@
           "required" : true,
           "type" : "string"
         }, {
-          "name" : "acct_type",
+          "name" : "Customer_Class__c",
           "in" : "header",
-          "required" : false,
-          "type" : "string"
-        } ],
-        "responses" : {
-          "200" : {
-            "description" : "Status 200"
-          }
-        }
-      },
-      "parameters" : [ ]
-    },
-    "/UserInfo/" : {
-      "put" : {
-        "summary" : "updates the salesforce acct ID",
-        "consumes" : [ ],
-        "parameters" : [ {
-          "name" : "UserInfo",
-          "in" : "query",
           "required" : true,
           "type" : "string"
         }, {
-          "name" : "body",
-          "in" : "body",
+          "name" : "Bill_Cycle__c",
+          "in" : "header",
           "required" : true,
-          "schema" : {
-            "type" : "object"
-          }
-        } ],
-        "responses" : {
-          "200" : {
-            "description" : "Status 200"
-          }
-        }
-      },
-      "parameters" : [ ]
-    },
-    "/acct_id/" : {
-      "put" : {
-        "summary" : "copyOfupdates_the_salesforce_acct_ID",
-        "parameters" : [ {
-          "name" : "CCB_Account_Id__c",
-          "in" : "query",
+          "type" : "string"
+        }, {
+          "name" : "Budget_Plan__c",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "Credit_Rating__c",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "Bill_Route_Type__c",
+          "in" : "header",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "CCB_Last_Sync__c",
+          "in" : "header",
           "required" : true,
           "type" : "string"
         } ],
