@@ -36,6 +36,30 @@
           }
         }
       },
+      "post" : {
+        "summary" : "prem_id",
+        "parameters" : [ {
+          "name" : "prem_id",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "latitude",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "longitude",
+          "in" : "query",
+          "required" : true,
+          "type" : "string"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Status 200"
+          }
+        }
+      },
       "parameters" : [ ]
     }
   },
