@@ -3,7 +3,7 @@
   "info" : {
     "description" : "This API updates the SF account number object",
     "version" : "1.0.0",
-    "title" : "SF Update API",
+    "title" : "SF",
     "contact" : { }
   },
   "host" : "bietldevar01.gmpvt.net:8088",
@@ -23,67 +23,7 @@
           "required" : true,
           "type" : "string"
         }, {
-          "name" : "Customer_Class__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Bill_Cycle__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Budget_Plan__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "boolean"
-        }, {
-          "name" : "Credit_Rating__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Bill_Route_Type__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "CCB_Last_Sync__c",
-          "in" : "query",
-          "required" : true,
-          "type" : "string"
-        }, {
           "name" : "CCB_Account_Id__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Customer_Class__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Bill_Cycle__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Budget_Plan__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "boolean"
-        }, {
-          "name" : "Credit_Rating__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Bill_Route_Type__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "CCB_Last_Sync__c",
           "in" : "header",
           "required" : true,
           "type" : "string"
