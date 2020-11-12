@@ -36,7 +36,7 @@
           "name" : "Budget_Plan__c",
           "in" : "query",
           "required" : true,
-          "type" : "string"
+          "type" : "boolean"
         }, {
           "name" : "Credit_Rating__c",
           "in" : "query",
@@ -71,7 +71,7 @@
           "name" : "Budget_Plan__c",
           "in" : "header",
           "required" : true,
-          "type" : "string"
+          "type" : "boolean"
         }, {
           "name" : "Credit_Rating__c",
           "in" : "header",
