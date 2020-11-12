@@ -11,10 +11,20 @@
   <modules>
     <module>code/routines</module>
     <module>code/beans</module>
-    <module>jobs/process/demo1_0.1</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/demo/demo2_0.1</module>
-    <module>jobs/process/demo/ami_data_0.1</module>
+    <module>jobs/process/UseCases/job1_0.1</module>
+    <module>jobs/services/aa_0.1</module>
+    <module>jobs/process/UseCases/sf_api_update_0.1</module>
+    <module>jobs/process/UseCases/creating_rest_service_sf_0.1</module>
+    <module>jobs/process/UseCases/updating_acct_number_0.1</module>
+    <module>jobs/process/UseCases/SF_Bill_Details/EXISTING_SF_jobs/accnum_salesforce_0.1</module>
+    <module>jobs/process/UseCases/SF_Bill_Details/EXISTING_SF_jobs/person_salesforce_0.1</module>
+    <module>jobs/process/UseCases/SF_Bill_Details/EXISTING_SF_jobs/acc_num_sf_0.1</module>
+    <module>jobs/process/SF/u1_0.1</module>
+    <module>jobs/process/SF/u2_0.1</module>
+    <module>jobs/process/SF/rest_service_job_0.1</module>
+    <module>jobs/process/SF/account_number_0.1</module>
     <module>jobs/process/sfi_0.1</module>
     <module>jobs/process/ami2_0.1</module>
   </modules>
