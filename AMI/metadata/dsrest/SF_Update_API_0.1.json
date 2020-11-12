@@ -52,41 +52,6 @@
           "in" : "query",
           "required" : true,
           "type" : "string"
-        }, {
-          "name" : "CCB_Account_Id__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Customer_Class__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Bill_Cycle__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Budget_Plan__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "boolean"
-        }, {
-          "name" : "Credit_Rating__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "Bill_Route_Type__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
-        }, {
-          "name" : "CCB_Last_Sync__c",
-          "in" : "header",
-          "required" : true,
-          "type" : "string"
         } ],
         "responses" : {
           "200" : {
