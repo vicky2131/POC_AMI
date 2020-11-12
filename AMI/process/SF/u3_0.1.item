@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PRD" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PRD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="PRD">
-    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:s27us+8jOaYDw/lhyAEOylDSqNHvPkSsg8jAIeJhqshkYRl5"/>
+    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:HCDmAMByrU4lzbV+UtbVgu6hWbmWrD2go5aawvZzp+VAiqdM"/>
     <contextParameter comment="" name="connection_BIDB_AdditionalParams" prompt="connection_BIDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="AllowMultipleQueries=true"/>
     <contextParameter comment="" name="connection_BIDB_Server" prompt="connection_BIDB_Server?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="exdadmc01.gmpvt.net"/>
     <contextParameter comment="" name="connection_BIDB_ServiceName" prompt="connection_BIDB_ServiceName?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="BIPRD"/>
@@ -9,7 +9,7 @@
     <contextParameter comment="" name="connection_BIDB_Port" prompt="connection_BIDB_Port?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="1521"/>
   </context>
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:fKmaSlZCyNhatvOKnWloECxRb/ngu0O2CibaVJ5Aa5r9"/>
+    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:EChN/z2LzuFevCSmQIJ5By03dQ62vAnnm3mcxT9hgxTO"/>
     <contextParameter comment="" name="connection_BIDB_AdditionalParams" prompt="connection_BIDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="AllowMultipleQueries=true"/>
     <contextParameter comment="" name="connection_BIDB_Server" prompt="connection_BIDB_Server?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="exdadmr01.gmpvt.net"/>
     <contextParameter comment="" name="connection_BIDB_ServiceName" prompt="connection_BIDB_ServiceName?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="BIDEV"/>
@@ -59,7 +59,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:TpBBS8rhLXU+Sw/yoaZldPekTQx439NEtlsZG91g"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:YqD4PlqSyemgOL3B3LteX5P3tQhmE2iaTkFzy43H"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -94,7 +94,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:kpTjXKt+JL2RzWlX9tXdxY+Qm+Dgn+xSTeCMnP6o"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:gi2ffMdv81OTU7Nb/32G56ctQCJANPARTtJYlq7D"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -131,7 +131,6 @@
   </parameters>
   <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
@@ -144,7 +143,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.connection_BIDB_ServiceName"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7EIoy7x7JiHilrC2b4v6nPZKjzoRNtAzsBSFmBfmmTnIW8gPdq8s5TvJLrPbgwS2xDbqKgM2bjfgABiK"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:VHIl4MEkqQ/Z4yQdSLbK93vw7/TkBqChLTpELD0Hmw2UWMpx9n+lF2WEuG684wo8tpMZsCR5rxIV29+E"/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -211,7 +210,6 @@
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="192" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -235,7 +233,7 @@
       <column comment="" key="false" length="255" name="Customer_Class__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="acctnum" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row5.BILL_CYC_CD " name="Bill_Cycle__c" nullable="true" type="id_String"/>
@@ -257,54 +255,8 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="288" posY="192">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
-    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="out1" name="out1">
-      <column comment="" key="false" length="-1" name="body" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Document" usefulColumn="true"/>
-    </metadata>
-    <nodeData xsi:type="TalendXMLMap:XmlMapData">
-      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="acctnum">
-        <nodes name="Bill_Cycle__c" outgoingConnections="//@node.2/@nodeData/@connections.0" type="id_String" xpath="acctnum/Bill_Cycle__c"/>
-        <nodes name="Bill_Route_Type__c" outgoingConnections="//@node.2/@nodeData/@connections.1" type="id_String" xpath="acctnum/Bill_Route_Type__c"/>
-        <nodes name="Budget_Plan__c" nullable="false" outgoingConnections="//@node.2/@nodeData/@connections.2" type="id_Boolean" xpath="acctnum/Budget_Plan__c"/>
-        <nodes name="CCB_Account_Id__c" outgoingConnections="//@node.2/@nodeData/@connections.3" type="id_String" xpath="acctnum/CCB_Account_Id__c"/>
-        <nodes name="CCB_Last_Sync__c" outgoingConnections="//@node.2/@nodeData/@connections.4" type="id_String" xpath="acctnum/CCB_Last_Sync__c"/>
-        <nodes name="Credit_Rating__c" outgoingConnections="//@node.2/@nodeData/@connections.5" type="id_String" xpath="acctnum/Credit_Rating__c"/>
-        <nodes name="Customer_Class__c" outgoingConnections="//@node.2/@nodeData/@connections.6" type="id_String" xpath="acctnum/Customer_Class__c"/>
-      </inputTrees>
-      <outputTrees name="out1">
-        <nodes expression="" name="body" pattern="" type="id_Document" xpath="out1/body">
-          <children expression="" main="true" name="root" type="id_String" xpath="out1.body:/root" xsi:type="TalendXMLMap:OutputTreeNode">
-            <children expression="" loop="true" main="true" name="Account_Number" type="id_String" xpath="out1.body:/root/Account_Number" xsi:type="TalendXMLMap:OutputTreeNode">
-              <children expression="acctnum.Bill_Cycle__c" incomingConnections="//@node.2/@nodeData/@connections.0" name="Bill_Cycle__c" type="id_String" xpath="out1.body:/root/Account_Number/Bill_Cycle__c" xsi:type="TalendXMLMap:OutputTreeNode"/>
-              <children expression="acctnum.Bill_Route_Type__c" incomingConnections="//@node.2/@nodeData/@connections.1" name="Bill_Route_Type__c" type="id_String" xpath="out1.body:/root/Account_Number/Bill_Route_Type__c" xsi:type="TalendXMLMap:OutputTreeNode"/>
-              <children expression="acctnum.Budget_Plan__c" incomingConnections="//@node.2/@nodeData/@connections.2" name="Budget_Plan__c" type="id_Boolean" xpath="out1.body:/root/Account_Number/Budget_Plan__c" xsi:type="TalendXMLMap:OutputTreeNode"/>
-              <children expression="acctnum.CCB_Account_Id__c" incomingConnections="//@node.2/@nodeData/@connections.3" name="CCB_Account_Id__c" type="id_String" xpath="out1.body:/root/Account_Number/CCB_Account_Id__c" xsi:type="TalendXMLMap:OutputTreeNode"/>
-              <children expression="acctnum.CCB_Last_Sync__c" incomingConnections="//@node.2/@nodeData/@connections.4" name="CCB_Last_Sync__c" type="id_String" xpath="out1.body:/root/Account_Number/CCB_Last_Sync__c" xsi:type="TalendXMLMap:OutputTreeNode"/>
-              <children expression="acctnum.Credit_Rating__c" incomingConnections="//@node.2/@nodeData/@connections.5" name="Credit_Rating__c" type="id_String" xpath="out1.body:/root/Account_Number/Credit_Rating__c" xsi:type="TalendXMLMap:OutputTreeNode"/>
-              <children expression="acctnum.Customer_Class__c" incomingConnections="//@node.2/@nodeData/@connections.6" name="Customer_Class__c" type="id_String" xpath="out1.body:/root/Account_Number/Customer_Class__c" xsi:type="TalendXMLMap:OutputTreeNode"/>
-            </children>
-          </children>
-        </nodes>
-      </outputTrees>
-      <varTables minimized="true" name="Var"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.0" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0/@children.0" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.1" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.2" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0/@children.2" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.3" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0/@children.3" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.4" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0/@children.4" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.5" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0/@children.5" xsi:type="TalendXMLMap:Connection"/>
-      <connections source="//@node.2/@nodeData/@inputTrees.0/@nodes.6" target="//@node.2/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.0/@children.6" xsi:type="TalendXMLMap:Connection"/>
-    </nodeData>
-  </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="192">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_2"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -317,19 +269,36 @@
     <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
     <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="body"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Bill_Cycle__c"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Bill_Route_Type__c"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Budget_Plan__c"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CCB_Account_Id__c"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CCB_Last_Sync__c"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Credit_Rating__c"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Customer_Class__c"/>
       <elementValue elementRef="LENGTH" value="10"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="out1" name="tLogRow_2">
-      <column comment="" key="false" length="-1" name="body" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Document" usefulColumn="true"/>
+    <metadata connector="FLOW" label="Account" name="tLogRow_2">
+      <column comment="" key="false" length="255" name="Bill_Cycle__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Bill_Route_Type__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Budget_Plan__c" nullable="false" originalLength="-1" pattern="" precision="-1" type="id_Boolean" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="CCB_Account_Id__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="CCB_Last_Sync__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Credit_Rating__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Customer_Class__c" nullable="true" originalLength="-1" pattern="" precision="-1" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="192">
+  <node componentName="tFlowToIterate" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFlowToIterate_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="DEFAULT_MAP" value="true"/>
     <elementParameter field="TABLE" name="MAP" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -351,13 +320,13 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;DWADM&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;dwadm&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pf4MaFUsMd6vKeBmQv3prL09pkBkkVZLyeJKi9zxCpl7Tp4="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2FUT4o3m6mvDY47DQIIm6SOPDFVE1ZqwE7oYf8ncqO87Yco="/>
     <elementParameter field="CHECK" name="USE_SSL" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:m2uirbxh1/mydF/yYtORsaeI2FVh4tH+ust7zmpZ"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:Bxz/aqWyB5Z0VpphSM6Sq8PRLj1rxsnAAxsH4DZ+"/>
     <elementParameter field="CHECK" name="NEED_CLIENT_AUTH" show="false" value="false"/>
     <elementParameter field="FILE" name="SSL_KEYSTORE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:dmI4ix1dJSuQ8jxvW1/DrwvLY4hOcKjg5pdpRK6Y"/>
+    <elementParameter field="PASSWORD" name="SSL_KEYSTORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:fipjSXvT91DFKilECPVQBvxs7iJfSni/HLzJxOsD"/>
     <elementParameter field="CHECK" name="DISABLE_CBC_PROTECTION" show="false" value="true"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -398,19 +367,19 @@
     <elementParameter field="CLOSED_LIST" name="ACCEPT_TYPE" value="*/*"/>
     <elementParameter field="TABLE" name="QUERY">
       <elementValue elementRef="NAME" value="&quot;Bill_Cycle__c&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;M-05&quot;"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row2.Bill_Cycle__c&quot;))"/>
       <elementValue elementRef="NAME" value="&quot;Bill_Route_Type__c&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;EBILL&quot;"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row2.Bill_Route_Type__c&quot;))"/>
       <elementValue elementRef="NAME" value="&quot;Budget_Plan__c&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;FALSE&quot;"/>
+      <elementValue elementRef="VALUE" value="((Boolean)globalMap.get(&quot;row2.Budget_Plan__c&quot;))"/>
       <elementValue elementRef="NAME" value="&quot;CCB_Account_Id__c&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;9917276006&quot;"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row2.CCB_Account_Id__c&quot;))"/>
       <elementValue elementRef="NAME" value="&quot;CCB_Last_Sync__c&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;2020-11-11 10:49:06&quot;"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row2.CCB_Last_Sync__c&quot;))"/>
       <elementValue elementRef="NAME" value="&quot;Credit_Rating__c&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;1000&quot;"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row2.Credit_Rating__c&quot;))"/>
       <elementValue elementRef="NAME" value="&quot;Customer_Class__c&quot;"/>
-      <elementValue elementRef="VALUE" value="&quot;RES&quot;"/>
+      <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;row2.Customer_Class__c&quot;))"/>
     </elementParameter>
     <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
     <elementParameter field="TEXT" name="SERVICE_NAMESPACE" show="false" value="&quot;http://www.talend.org/rest/&quot;"/>
@@ -419,7 +388,7 @@
     <elementParameter field="CHECK" name="NEED_AUTH" value="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" show="false" value="BASIC"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" show="false" value="&quot;username&quot;"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:i/rHkLNvF8z2I+WtvIr3+2dr3jvfpQxdjkEu2HAF9BzXFSehsjA="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" show="false" value="enc:system.encryption.key.v1:k+G3hT+uLw5+7JFHBBd0SCvRHNdomNi8LvDINAWIU6ySEfVRQII="/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" show="false" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
@@ -447,7 +416,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:B7oAAovrKqiNFAUVr5b0YDxTtr1g0Fyznf4dgwnt"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:NeoEvY9+I8qfE6sU4hc7chJkyBscgUFsAtOhOd+O"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="out1" name="tRESTClient_1">
       <column comment="" key="false" length="-1" name="body" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Document" usefulColumn="true"/>
@@ -494,26 +463,17 @@
   </node>
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
   </connection>
-  <connection connectorName="FLOW" label="acctnum" lineStyle="0" metaname="acctnum" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tXMLMap_1">
+  <connection connectorName="FLOW" label="acctnum" lineStyle="0" metaname="acctnum" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="acctnum"/>
-  </connection>
-  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tLogRow_2">
-    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogRow_2" offsetLabelX="0" offsetLabelY="0" source="tLogRow_2" target="tFlowToIterate_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_1" target="tRESTClient_1">
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBConnection_1" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_1" target="tWaitForSqlData_1">
@@ -544,13 +504,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0f21e3da-395a-4704-b785-f3567ad1268e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HTV5J7m+0OlFQcgM95ylxpI2GAO7rbYM4FxNWdjGRr9EExPTbytzjwnfmBPqCL8Zj2Ri7iYb3j+u
-NuQ7yu9x/g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_44836ca9-b654-465e-a0f7-8962e7bdcab4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3QhXcxyTSgy70qy6d5KOXEwg9A5lOGfxDbU6orYzkWFY9wIgvBFJYY1uS4BfemUDCtVrcjK3iGLW
-fLw4ZFzfTw==</DigestValue></Reference></SignedInfo><SignatureValue>MstYvRTISCsPU2frzZYK89FrI4jH+0pHxCbbi1hLfR1c+pvy2Clm0ELhjGi5UX0sqKGMEsyo3nVU
-pon3ux8q/IDAkV5XvQU7ueFpRAYhEa/6P+1W5bHBbC3AFfHn34yAB0a1B3PBTCZQLksDM5VTKQhF
-mdrnx5I6sQyWBzVdh6lYXwFgeB4tedNor4W6T8SPAIXN7rxt/hwNlgCwbHmWGD3BiTUPWstzoLYB
-CPfu8hyGpvq+GyWxjXtxuelRApKuGVga6RLRTCfCkBNa9Bi/Y4ZJprT6N9u8Dyj/WZZSE4jERLGl
-6sv55GG4y/qN5kJmHpaZ/qQnSE23ODCCjUf57g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_77d697e0-8c67-49bc-8cf8-c7507859a04a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4ZPr50YcU7aVtJL3rWxvm1s5w0evxu621Dto6UxmNyEWZOIZRdbKMYuiTOYlh4ixbpiKO2u8Wvb1
+WiOypjQIRA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d38cdfa2-8e57-4b66-826e-de480a267540"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3cFaa3Lda+yAlFon7M+CQW127pedCYkxjFcq1xXLc3Mq7Sl9lV+nTYGQ4pdfXtR/59i2vkelCJcG
+GuBnf+Rnug==</DigestValue></Reference></SignedInfo><SignatureValue>VHGcmyLQRwAVPxR9MVDlOKMWtRIqCX5g9HfI5/WEiP3XG+9Z2fLpMGmTdYu25ZqqDBOh/AyA2RAm
+/BYig7Uldjx/pxGW0ZCQ8A/jQCNQwokLpHy0nJj1XiI576tBoiDruS2OYghwZyejwpGSFLec4lEB
+o8BL24LDX6pnYyI9xK2y2eie4g4nUU2wpYMvjSaCeDIqy6TkV1qhaHY8chTfizKri3uxGnpFcm4W
+YMrzPu/qWlKbP50sdRB0HH0TUGzNd2KYEqXSYgE7409PPnasMpPtoGRvWy955kSxDWu0YVfu/5ny
+WudHKJecj4QQxPnFrRfu05vPG/TIcBpO0602EA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -572,4 +532,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_44836ca9-b654-465e-a0f7-8962e7bdcab4" Target="#_0f21e3da-395a-4704-b785-f3567ad1268e"><Timestamp>2020-11-12 19:08:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d38cdfa2-8e57-4b66-826e-de480a267540" Target="#_77d697e0-8c67-49bc-8cf8-c7507859a04a"><Timestamp>2020-11-12 19:14:37</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
