@@ -26,7 +26,10 @@
     <module>jobs/process/SF/rest_service_job_0.1</module>
     <module>jobs/process/SF/account_number_0.1</module>
     <module>jobs/process/sfi_0.1</module>
-    <module>jobs/process/ami2_0.1</module>
+    <module>jobs/process/demo/ami_data_0.1</module>
+    <module>jobs/process/SF/u3_0.1</module>
+    <module>jobs/process/SF/u_0.1</module>
+    <module>jobs/process/SF/u4_0.1</module>
     <module>jobs/process/ami2c_0.1</module>
     <module>jobs/process/curl_0.1</module>
   </modules>
