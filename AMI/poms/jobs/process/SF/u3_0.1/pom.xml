@@ -285,11 +285,6 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>ojdbc7</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
       <artifactId>opensaml-core-3.3.0</artifactId>
       <version>6.0.0</version>
     </dependency>
@@ -421,11 +416,6 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>stax2-api-3.1.4</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>talend-oracle-timestamptz</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
