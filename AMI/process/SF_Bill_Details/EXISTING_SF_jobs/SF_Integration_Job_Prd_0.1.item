@@ -2,14 +2,14 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="connection_BIDB_AdditionalParams" prompt="connection_BIDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="AllowMultipleQueries=true"/>
     <contextParameter comment="" name="connection_BIDB_Login" prompt="connection_BIDB_Login?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="dwadm"/>
-    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:kIWZEVfdw4g4EenewwoVm9V4dwCtbS69lHoif4RF3W8t"/>
+    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:JN9JQxPqURWx9NjR9ACwYpldZz3Tp36VxAs9+Bd2SukC"/>
     <contextParameter comment="" name="connection_BIDB_Port" prompt="connection_BIDB_Port?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="1521"/>
     <contextParameter comment="" name="connection_BIDB_Schema" prompt="connection_BIDB_Schema?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="DWADM"/>
     <contextParameter comment="" name="connection_BIDB_Server" prompt="connection_BIDB_Server?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="exdadmr01.gmpvt.net"/>
     <contextParameter comment="" name="connection_BIDB_ServiceName" prompt="connection_BIDB_ServiceName?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="BIDEV"/>
     <contextParameter comment="" name="connection_CCBPRD_AdditionalParams" prompt="connection_CCBPRD_AdditionalParams?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value=""/>
     <contextParameter comment="" name="connection_CCBPRD_Login" prompt="connection_CCBPRD_Login?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="cisread"/>
-    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:6FMj/WXwkzSntCYHvNMshldFjvhJrHkQixzju15t2JEvvio="/>
+    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:aI8KnhACSmRCbDEcPb+dc1qBOtH1uCHERiSgR+TSeH5FjOM="/>
     <contextParameter comment="" name="connection_CCBPRD_Port" prompt="connection_CCBPRD_Port?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="1521"/>
     <contextParameter comment="" name="connection_CCBPRD_Schema" prompt="connection_CCBPRD_Schema?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="CISREAD"/>
     <contextParameter comment="" name="connection_CCBPRD_Server" prompt="connection_CCBPRD_Server?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="exdadmc02.gmpvt.net"/>
@@ -18,14 +18,14 @@
   <context confirmationNeeded="false" name="PRD">
     <contextParameter comment="" name="connection_BIDB_AdditionalParams" prompt="connection_BIDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="AllowMultipleQueries=true"/>
     <contextParameter comment="" name="connection_BIDB_Login" prompt="connection_BIDB_Login?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="dwadm"/>
-    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:Sdce+M8YmqvD3uQQYnmvtXJ3QNc576wh4viY69QnOl3e5mFf"/>
+    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:83L8n/+1qyle3WCc5saMopmOrz2b1xJYtvQsaHBmCqh9IGUl"/>
     <contextParameter comment="" name="connection_BIDB_Port" prompt="connection_BIDB_Port?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="1521"/>
     <contextParameter comment="" name="connection_BIDB_Schema" prompt="connection_BIDB_Schema?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="DWADM"/>
     <contextParameter comment="" name="connection_BIDB_Server" prompt="connection_BIDB_Server?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="exdadmc01.gmpvt.net"/>
     <contextParameter comment="" name="connection_BIDB_ServiceName" prompt="connection_BIDB_ServiceName?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="BIPRD"/>
     <contextParameter comment="" name="connection_CCBPRD_AdditionalParams" prompt="connection_CCBPRD_AdditionalParams?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value=""/>
     <contextParameter comment="" name="connection_CCBPRD_Login" prompt="connection_CCBPRD_Login?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="cisread"/>
-    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:6eWxY8s5wgYDCc3wJZys6CKtvI4A9BLhMpiRPUnbvfGc3CQ="/>
+    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:5xPaLtKVvQVoF8VBhZL0bq1F1OTyF3oQwvXc5Ht9A4Ox8XM="/>
     <contextParameter comment="" name="connection_CCBPRD_Port" prompt="connection_CCBPRD_Port?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="1521"/>
     <contextParameter comment="" name="connection_CCBPRD_Schema" prompt="connection_CCBPRD_Schema?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="CISREAD"/>
     <contextParameter comment="" name="connection_CCBPRD_Server" prompt="connection_CCBPRD_Server?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="exdadmc02.gmpvt.net"/>
@@ -34,14 +34,14 @@
   <context confirmationNeeded="false" name="tst">
     <contextParameter comment="" name="connection_BIDB_AdditionalParams" prompt="connection_BIDB_AdditionalParams?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="AllowMultipleQueries=true"/>
     <contextParameter comment="" name="connection_BIDB_Login" prompt="connection_BIDB_Login?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="dwadm"/>
-    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:nt6GjpPwOXcyqvJRIc4em9DFHccxThHcW4vXNeHETtaOAVBl"/>
+    <contextParameter comment="" name="connection_BIDB_Password" prompt="connection_BIDB_Password?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:0dx24ffP3BrikjliLgBlzN6a87QC482Czhe7VN+OMnHdNvUn"/>
     <contextParameter comment="" name="connection_BIDB_Port" prompt="connection_BIDB_Port?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="1521"/>
     <contextParameter comment="" name="connection_BIDB_Schema" prompt="connection_BIDB_Schema?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="DWADM"/>
     <contextParameter comment="" name="connection_BIDB_Server" prompt="connection_BIDB_Server?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="exdadmc01.gmpvt.net"/>
     <contextParameter comment="" name="connection_BIDB_ServiceName" prompt="connection_BIDB_ServiceName?" promptNeeded="false" repositoryContextId="_91quQCYEEeiB2KDgAaEUzA" type="id_String" value="BIPRD"/>
     <contextParameter comment="" name="connection_CCBPRD_AdditionalParams" prompt="connection_CCBPRD_AdditionalParams?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value=""/>
     <contextParameter comment="" name="connection_CCBPRD_Login" prompt="connection_CCBPRD_Login?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="cisread"/>
-    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:lF0/oCZS7TfAF9w2tabNS20NuFdxxeJ001YCbpXPcQOih3k="/>
+    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_Password" value="enc:system.encryption.key.v1:IdeElrG0lLa9vgQ3luPzpMcz0mUaYItfpQEIUGrAeTaXBDs="/>
     <contextParameter comment="" name="connection_CCBPRD_Port" prompt="connection_CCBPRD_Port?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="1521"/>
     <contextParameter comment="" name="connection_CCBPRD_Schema" prompt="connection_CCBPRD_Schema?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="CISREAD"/>
     <contextParameter comment="" name="connection_CCBPRD_Server" prompt="connection_CCBPRD_Server?" promptNeeded="false" repositoryContextId="_xk_yACWwEeiB2KDgAaEUzA" type="id_String" value="exdadmc02.gmpvt.net"/>
@@ -51,8 +51,8 @@
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms1024M&quot;,&quot;-Xmx4000M&quot;]}"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" show="false" value="true"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="43"/>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="256"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="32"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="192"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
@@ -77,8 +77,9 @@
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
     <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
-    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
     <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -91,7 +92,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/VPAQZ7HqHd1D3UvrzRVe2bGbyPnb1foG+MIsEwU"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:glH7qzUSGQilPeI9utn9D7GQjPw3uxrBJ7D4OSSH"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -106,7 +107,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;E:/Talend-Studio-20170623_1246-V6.4.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/Admin/Downloads/Talend-Studio-20200219_1130-V7.3/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -114,7 +115,7 @@
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
     <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
     <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
     <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
@@ -126,7 +127,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:9+jdjKUYWVGm/ryVCKSxMFB19G1fdrvOYdjQQj8h"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:oX0aucXqLX4itPzNfXh6JI8mCV8xzDJEeRlNL1S6"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -175,7 +176,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;BIDEV&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_CCBPRD_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_CCBPRD_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8blCI82E6cGdbDfwwSppg+MVaSmLsg5tR1Nx94l5eEo+R9YmU+UQ7ERw+YjXtmKqg6XD3mkfNr1YZnpo5t0="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NZaZbdYE6w7q5tmJe4TDZK4kKyC90zeneGQxsIPGAXieItCF6TquIDjZMEv8agrkOxOjLBCYgQUmSinv988="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -837,7 +838,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;/bi_backups/backup/SIA/sf.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Sciphics/Documents/salesforce poc/sf.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -1061,7 +1062,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qv1p0sNdEySWhOKIAZVr6qCAWHUV3OadQ99I3dnVw8ykOu69AV6J4rua/sp0Exu9fFqlh5Miy+1SnWFh"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:vD/tXSPfRntzcn1T83WCn5EoxjC8aItTMuV+T3BIEifLkuc4uNTgBVtlXYTqFJHG/QePfVcXMOngxS+n"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;I$_C_BI_CCB_SF&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -1449,6 +1450,1007 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tELTOracleMap" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleMap_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_BIDB_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_BIDB_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_BIDB_ServiceName"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+xJY2qA/1k8AuDXhl3io0IugB+15TmT+He4l/StQVYrVOJEsN0xL2FADteFnS8MeuWXzGm7VFlrc1xZz"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_kvCGcKHWEeiOO-D72W4Pcg-tELTOracleMap_1-PREVIEW.bmp"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_BIDB_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="true"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS">
+      <elementValue elementRef="HINT" value="&quot;DISTINCT&quot;"/>
+      <elementValue elementRef="POSITION" value="AFTER"/>
+      <elementValue elementRef="SQL_STMT" value="SELECT"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="TEXT" name="ACTIVE_DATABASE_DELIMITED_IDENTIFIERS" show="false" value="false"/>
+    <metadata connector="TABLE" label="CM_BI_CCB_SF" name="table1">
+      <column comment="" key="true" length="50" name="PER_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="FIRSTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="LASTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="OVRD_MAIL_NAME1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="ACCT_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="ACCOUNT_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BILL_CYC_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="EMAILID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BILL_ADDR_SRCE_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="ADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="ADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="90" name="CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="POSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="COUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="STATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="CRSCORE" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="HOME_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="CELL_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="WORK_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="FAX_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="SA_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SA_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="SADESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SA_STATUS" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BUDPLAN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="SA_SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SF_PRODUCT_ID" nullable="true" originalLength="50" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="PREM_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PCOUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="90" name="PCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PPOSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PSTATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="MUNICIPAL_VAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="DISTRICT" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BILL_RTE_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PREM_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PER_OR_BUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="ACCT_REL_TYPE_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="REL_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SA_END_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="CCB_RATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RATE_EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="INSTALL_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="METER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="LL_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="LL_PER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="60" name="MULT_ITEM" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="UPDATE_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PERSONADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PERSONADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="90" name="PERSONCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PERSONSTATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PERSONPOSTAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PERSONCOUNTRY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="INSERT_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="START_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="STOP_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BUS_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="SP_TYPE_CD" nullable="true" originalLength="20" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="DBMapData">
+      <InputTables joinType="NO_JOIN" name="I$_C_BI_CCB_SF" tableName="I$_C_BI_CCB_SF">
+        <DBMapperTableEntries expression="" name="PER_ID" operator=""/>
+        <DBMapperTableEntries expression="" name="FIRSTNAME" operator=""/>
+        <DBMapperTableEntries name="LASTNAME" operator=""/>
+        <DBMapperTableEntries name="OVRD_MAIL_NAME1"/>
+        <DBMapperTableEntries name="ACCT_ID"/>
+        <DBMapperTableEntries name="ACCOUNT_TYPE"/>
+        <DBMapperTableEntries name="BILL_CYC_CD"/>
+        <DBMapperTableEntries name="EMAILID"/>
+        <DBMapperTableEntries name="BILL_ADDR_SRCE_FLG"/>
+        <DBMapperTableEntries name="ADDRESS1"/>
+        <DBMapperTableEntries name="ADDRESS2"/>
+        <DBMapperTableEntries name="CITY"/>
+        <DBMapperTableEntries name="POSTAL"/>
+        <DBMapperTableEntries name="COUNTRY"/>
+        <DBMapperTableEntries name="STATE"/>
+        <DBMapperTableEntries name="CRSCORE"/>
+        <DBMapperTableEntries name="HOME_NUM"/>
+        <DBMapperTableEntries name="CELL_NUM"/>
+        <DBMapperTableEntries name="WORK_NUM"/>
+        <DBMapperTableEntries name="FAX_NUM"/>
+        <DBMapperTableEntries name="SA_ID"/>
+        <DBMapperTableEntries name="SA_TYPE_CD"/>
+        <DBMapperTableEntries name="SADESC"/>
+        <DBMapperTableEntries name="SA_STATUS"/>
+        <DBMapperTableEntries name="BUDPLAN"/>
+        <DBMapperTableEntries name="SP_ID"/>
+        <DBMapperTableEntries name="SA_SP_ID"/>
+        <DBMapperTableEntries name="SF_PRODUCT_ID"/>
+        <DBMapperTableEntries name="PREM_TYPE"/>
+        <DBMapperTableEntries name="PCOUNTRY"/>
+        <DBMapperTableEntries name="PCITY"/>
+        <DBMapperTableEntries name="PPOSTAL"/>
+        <DBMapperTableEntries name="PSTATE"/>
+        <DBMapperTableEntries name="PADDRESS1"/>
+        <DBMapperTableEntries name="PADDRESS2"/>
+        <DBMapperTableEntries name="MUNICIPAL_VAL"/>
+        <DBMapperTableEntries name="DISTRICT"/>
+        <DBMapperTableEntries name="BILL_RTE_TYPE_CD"/>
+        <DBMapperTableEntries name="PREM_ID"/>
+        <DBMapperTableEntries name="PER_OR_BUS_FLG"/>
+        <DBMapperTableEntries name="ACCT_REL_TYPE_CD"/>
+        <DBMapperTableEntries name="REL_TYPE"/>
+        <DBMapperTableEntries name="SA_END_DT"/>
+        <DBMapperTableEntries name="CCB_RATE"/>
+        <DBMapperTableEntries name="RATE_EFFDT"/>
+        <DBMapperTableEntries name="INSTALL_DT"/>
+        <DBMapperTableEntries name="METER_ID"/>
+        <DBMapperTableEntries name="LL_ID"/>
+        <DBMapperTableEntries name="LL_PER_ID"/>
+        <DBMapperTableEntries name="MULT_ITEM"/>
+        <DBMapperTableEntries name="EFFDT"/>
+        <DBMapperTableEntries name="PERSONADDRESS1"/>
+        <DBMapperTableEntries name="PERSONADDRESS2"/>
+        <DBMapperTableEntries name="PERSONCITY"/>
+        <DBMapperTableEntries name="PERSONSTATE"/>
+        <DBMapperTableEntries name="PERSONPOSTAL"/>
+        <DBMapperTableEntries name="PERSONCOUNTRY"/>
+        <DBMapperTableEntries name="START_DT"/>
+        <DBMapperTableEntries name="STOP_DTTM"/>
+        <DBMapperTableEntries expression="" name="BUS_NUM" operator=""/>
+        <DBMapperTableEntries name="SP_TYPE_CD"/>
+      </InputTables>
+      <OutputTables name="table1" tableName="CM_BI_CCB_SF">
+        <DBMapperTableEntries expression="distinct I$_C_BI_CCB_SF.PER_ID" name="PER_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.FIRSTNAME" name="FIRSTNAME"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.LASTNAME" name="LASTNAME"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.OVRD_MAIL_NAME1" name="OVRD_MAIL_NAME1"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ACCT_ID" name="ACCT_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ACCOUNT_TYPE" name="ACCOUNT_TYPE"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BILL_CYC_CD" name="BILL_CYC_CD"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.EMAILID" name="EMAILID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BILL_ADDR_SRCE_FLG" name="BILL_ADDR_SRCE_FLG"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ADDRESS1" name="ADDRESS1"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ADDRESS2" name="ADDRESS2"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.CITY" name="CITY"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.POSTAL" name="POSTAL"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.COUNTRY" name="COUNTRY"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.STATE" name="STATE"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.CRSCORE" name="CRSCORE"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.HOME_NUM" name="HOME_NUM"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.CELL_NUM" name="CELL_NUM"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.WORK_NUM" name="WORK_NUM"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.FAX_NUM" name="FAX_NUM"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_ID" name="SA_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_TYPE_CD" name="SA_TYPE_CD"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SADESC" name="SADESC"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_STATUS" name="SA_STATUS"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BUDPLAN" name="BUDPLAN"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SP_ID" name="SP_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_SP_ID" name="SA_SP_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SF_PRODUCT_ID " name="SF_PRODUCT_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PREM_TYPE" name="PREM_TYPE"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PCOUNTRY" name="PCOUNTRY"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PCITY" name="PCITY"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PPOSTAL" name="PPOSTAL"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PSTATE" name="PSTATE"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PADDRESS1" name="PADDRESS1"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PADDRESS2" name="PADDRESS2"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.MUNICIPAL_VAL" name="MUNICIPAL_VAL"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.DISTRICT" name="DISTRICT"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BILL_RTE_TYPE_CD" name="BILL_RTE_TYPE_CD"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PREM_ID" name="PREM_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PER_OR_BUS_FLG" name="PER_OR_BUS_FLG"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ACCT_REL_TYPE_CD" name="ACCT_REL_TYPE_CD"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.REL_TYPE" name="REL_TYPE"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_END_DT" name="SA_END_DT"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.CCB_RATE" name="CCB_RATE"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.RATE_EFFDT" name="RATE_EFFDT"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.INSTALL_DT" name="INSTALL_DT"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.METER_ID" name="METER_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.LL_ID" name="LL_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.LL_PER_ID" name="LL_PER_ID"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.MULT_ITEM" name="MULT_ITEM"/>
+        <DBMapperTableEntries expression="sysdate as update_dttm" name="UPDATE_DTTM"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.EFFDT" name="EFFDT"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONADDRESS1" name="PERSONADDRESS1"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONADDRESS2" name="PERSONADDRESS2"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONCITY" name="PERSONCITY"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONSTATE" name="PERSONSTATE"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONPOSTAL" name="PERSONPOSTAL"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONCOUNTRY" name="PERSONCOUNTRY"/>
+        <DBMapperTableEntries expression="sysdate as insert_dttm" name="INSERT_DTTM"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.START_DT" name="START_DT"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.STOP_DTTM" name="STOP_DTTM"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BUS_NUM" name="BUS_NUM"/>
+        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SP_TYPE_CD " name="SP_TYPE_CD"/>
+      </OutputTables>
+    </nodeData>
+  </node>
+  <node componentName="tELTOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleOutput_1"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="MERGE"/>
+    <elementParameter field="MEMO" name="WHERE_CLAUSE" show="false" value="&quot; &quot;"/>
+    <elementParameter field="CHECK" name="USE_MERGE_UPDATE" value="true"/>
+    <elementParameter field="TABLE" name="SCHEMA_UPDATE">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PER_ID"/>
+      <elementValue elementRef="UPDATE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FIRSTNAME"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LASTNAME"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVRD_MAIL_NAME1"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCT_ID"/>
+      <elementValue elementRef="UPDATE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNT_TYPE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_CYC_CD"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMAILID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_ADDR_SRCE_FLG"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS1"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS2"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CITY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POSTAL"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COUNTRY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRSCORE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOME_NUM"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CELL_NUM"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WORK_NUM"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FAX_NUM"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_ID"/>
+      <elementValue elementRef="UPDATE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_TYPE_CD"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SADESC"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_STATUS"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUDPLAN"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SP_ID"/>
+      <elementValue elementRef="UPDATE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_SP_ID"/>
+      <elementValue elementRef="UPDATE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SF_PRODUCT_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PREM_TYPE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PCOUNTRY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PCITY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PPOSTAL"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PSTATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PADDRESS1"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PADDRESS2"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MUNICIPAL_VAL"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DISTRICT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_RTE_TYPE_CD"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PREM_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PER_OR_BUS_FLG"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCT_REL_TYPE_CD"/>
+      <elementValue elementRef="UPDATE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REL_TYPE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_END_DT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CCB_RATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RATE_EFFDT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INSTALL_DT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="METER_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LL_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LL_PER_ID"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MULT_ITEM"/>
+      <elementValue elementRef="UPDATE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATE_DTTM"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EFFDT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONADDRESS1"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONADDRESS2"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONCITY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONSTATE"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONPOSTAL"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONCOUNTRY"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INSERT_DTTM"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="START_DT"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STOP_DTTM"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUS_NUM"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SP_TYPE_CD"/>
+      <elementValue elementRef="UPDATE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_MERGE_UPDATE_WHERE" value="false"/>
+    <elementParameter field="TEXT" name="MERGE_UPDATE_WHERE_STRING" show="false" value="&quot;IND_UPDATE = 'U' &quot;"/>
+    <elementParameter field="CHECK" name="USE_MERGE_UPDATE_DELETE_WHERE" value="false"/>
+    <elementParameter field="TEXT" name="MERGE_UPDATE_DELETE_WHERE_STRING" show="false" value="&quot; &quot;"/>
+    <elementParameter field="CHECK" name="USE_MERGE_INSERT" value="true"/>
+    <elementParameter field="TABLE" name="SCHEMA_INSERT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="PER_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FIRSTNAME"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LASTNAME"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="OVRD_MAIL_NAME1"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCT_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNT_TYPE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_CYC_CD"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EMAILID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_ADDR_SRCE_FLG"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS1"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS2"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CITY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="POSTAL"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COUNTRY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CRSCORE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="HOME_NUM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CELL_NUM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="WORK_NUM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FAX_NUM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_TYPE_CD"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SADESC"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_STATUS"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUDPLAN"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SP_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_SP_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SF_PRODUCT_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PREM_TYPE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PCOUNTRY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PCITY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PPOSTAL"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PSTATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PADDRESS1"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PADDRESS2"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MUNICIPAL_VAL"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DISTRICT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_RTE_TYPE_CD"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PREM_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PER_OR_BUS_FLG"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ACCT_REL_TYPE_CD"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="REL_TYPE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SA_END_DT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CCB_RATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RATE_EFFDT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INSTALL_DT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="METER_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LL_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LL_PER_ID"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MULT_ITEM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATE_DTTM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EFFDT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONADDRESS1"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONADDRESS2"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONCITY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONSTATE"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONPOSTAL"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONCOUNTRY"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="INSERT_DTTM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="START_DT"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STOP_DTTM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BUS_NUM"/>
+      <elementValue elementRef="INSERT" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SP_TYPE_CD"/>
+      <elementValue elementRef="INSERT" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_MERGE_INSERT_WHERE" value="false"/>
+    <elementParameter field="TEXT" name="MERGE_INSERT_WHERE_STRING" show="false" value="&quot;IND_UPDATE = 'I' &quot;"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;CM_BI_CCB_SF&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="IS_TABLE_NAME_VARIABLE" value="false"/>
+    <elementParameter field="CHECK" name="USE_DIFFERENT_TABLE" value="false"/>
+    <elementParameter field="TEXT" name="DIFFERENT_TABLE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="true"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS"/>
+    <elementParameter field="TEXT" name="LABEL" value="CM_BI_CCB_SF"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="CM_BI_CCB_SF" name="tELTOracleOutput_1">
+      <column comment="" key="true" length="50" name="PER_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="FIRSTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="LASTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="OVRD_MAIL_NAME1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="ACCT_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="ACCOUNT_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BILL_CYC_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="EMAILID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BILL_ADDR_SRCE_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="ADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="ADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="90" name="CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="POSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="COUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="STATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="CRSCORE" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="HOME_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="CELL_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="WORK_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="FAX_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="SA_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SA_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="SADESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SA_STATUS" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BUDPLAN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="SA_SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SF_PRODUCT_ID" nullable="true" originalLength="50" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="PREM_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PCOUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="90" name="PCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PPOSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PSTATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="MUNICIPAL_VAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="DISTRICT" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BILL_RTE_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PREM_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PER_OR_BUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="50" name="ACCT_REL_TYPE_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="REL_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SA_END_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="CCB_RATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RATE_EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="INSTALL_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="METER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="LL_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="LL_PER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="true" length="60" name="MULT_ITEM" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="UPDATE_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PERSONADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PERSONADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="90" name="PERSONCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PERSONSTATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PERSONPOSTAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PERSONCOUNTRY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="INSERT_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="START_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="STOP_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BUS_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="SP_TYPE_CD" nullable="true" originalLength="20" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_1"/>
+    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;I$_C_BI_CCB_SF&quot;"/>
+    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
+    <elementParameter field="TEXT" name="LABEL" value="I$_Table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="TABLE" label="CM_BI_CCB_SF" name="tELTOracleInput_1">
+      <column comment="" key="false" length="50" name="PER_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="FIRSTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="LASTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="OVRD_MAIL_NAME1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="ACCT_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="ACCOUNT_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BILL_CYC_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="EMAILID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BILL_ADDR_SRCE_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="ADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="ADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="90" name="CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="POSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="COUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="STATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="0" name="CRSCORE" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="HOME_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="CELL_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="WORK_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="FAX_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SA_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SA_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="SADESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SA_STATUS" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BUDPLAN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SA_SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="SF_PRODUCT_ID" nullable="true" originalLength="50" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="60" name="PREM_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PCOUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="90" name="PCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PPOSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PSTATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="MUNICIPAL_VAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="DISTRICT" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BILL_RTE_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PREM_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="PER_OR_BUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="ACCT_REL_TYPE_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="REL_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="SA_END_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="CCB_RATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="RATE_EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="INSTALL_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="METER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="LL_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="LL_PER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="MULT_ITEM" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PERSONADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="254" name="PERSONADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="90" name="PERSONCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PERSONSTATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PERSONPOSTAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="PERSONCOUNTRY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="START_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="7" name="STOP_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="50" name="BUS_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="20" name="SP_TYPE_CD" nullable="true" originalLength="20" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
   <node componentName="tOracleBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="-128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBBulkExec_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
@@ -1463,11 +2465,11 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DYRFdtxVJNi/wyA7Wzlz8ipgDD2kMXWtkoUdTLI3aLON1ppLsz2eaUVsZ+EGnkP5ZRw1tOzLcpbzcagO"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pmd+QuvnB/25A33Qvj5dpbwt+QY0hS/86RaIJlmUWRD7Wy+Irwn1dCx8+ibhFGQCRnfBkcBryGmNDlW1"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;C$_BI_CCB_SF&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before bulk insert"/>
-    <elementParameter field="FILE" name="DATA" value="&quot;/bi_backups/backup/SIA/sf.csv&quot;"/>
+    <elementParameter field="FILE" name="DATA" value="&quot;C:/Users/Sciphics/Documents/salesforce poc/sf.csv&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_BIDB_AdditionalParams"/>
@@ -1582,11 +2584,11 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:IjF43/V7Sh68aaXRor4L2Excq+1ZgXSw6MBtxFsk0agZZ8hZOHsRG27Mdb3HjdjwltV3mBlUck9cRZgX"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lpeMX94MpV48NPw19/mTkJ9N04zsIH/sev60YF+A5XsfLylmX6MFYn7sE1URCLD0yJdRHr/cRZ/jBIZ/"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;C$_BI_CCB_SF_VIR&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="DROP_IF_EXISTS_AND_CREATE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before bulk insert"/>
-    <elementParameter field="FILE" name="DATA" value="&quot;/bi_backups/backup/SIA/sf_virtual.csv&quot;"/>
+    <elementParameter field="FILE" name="DATA" value="&quot;C:/Users/Sciphics/Documents/salesforce poc/sf_virtual.csv&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_BIDB_AdditionalParams"/>
@@ -1698,7 +2700,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;BIDEV&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_CCBPRD_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_CCBPRD_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FshaY24Hile8RiRMg3ai2N2UINnt1ALWJAygxB3KeU/46zUcD1aOqWm+69JBEGGZAi41MBMZNRq2hHNA3j8="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:L9N0kv79dMHZ/2AIN1DIdNA/mF+5KHy49o033y0DqKz85ofCF4hXdCupAKfZTIyKkXy2z3t+FkDfF4eTkUo="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -2330,7 +3332,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_2"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;/bi_backups/backup/SIA/sf_virtual.csv&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Sciphics/Documents/salesforce poc/sf_virtual.csv&quot;"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -2545,7 +3547,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GOGdwvmR/ym7wQrYTb4T8mkvf3/w35za4OG6rqQTR/HeLfb5SL80HeJx8UHE3VKOyoAPNlRwAXa4gqxl"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/qiBCDL/rv7zfv5QZPDFMGqkfrU9HhXhLvA/AJ5iwctQF7j60uRwmk+qVXqPDbLsq4l4nvvSDs+Ap2ii"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -2588,7 +3590,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.connection_BIDB_ServiceName"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/aBJMlRWnb02oUlm5VeZM64SpxoCWz+Qw2EsAdstO2OK0tzq3+mYn0blfUUtbI3FrYHXV4bLGUhyuNNJ"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:22CeEPCv2EEBSfZdIfHP40BjZ2KqqdtCnKZht0J30JyefSsaYL4ACOy6YEA9CET3jBfIi0sKWXwgGJJN"/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;C$_BI_CCB_SF_VIR&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -2918,7 +3920,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="context.connection_BIDB_ServiceName"/>
     <elementParameter field="TEXT" name="TABLESCHEMA" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:m73j2VzCoP6FpBmQsSMCdjHXkLD3s1AYxkxr/BeAZaWs2sYQFdbnJJzHxwT6tSPHklfWkZFmDOx4mOi5"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZoWdSlaakbdXp6a8bGFibvIdMDcLyC0yRFv6YMI/QWo48P2NGRfknAjVsZnP2wMCsNJcvcIABL0NILxU"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;C$_BI_CCB_SF&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="LABEL" name="NOTE" show="false" value="Warning : this component configuration will automatically generate a commit before data insert/update/delete"/>
@@ -2931,6 +3933,8 @@
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_BIDB_AdditionalParams"/>
     <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
@@ -3916,7 +4920,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MXd+FJKYh16vo52I5k5g9m7rmCND6CM6gY5lC9RYZQRp/s6ogy+nRPxM5kVktkjj176FSooOD1yqmEkr"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FMF2WkHtuR6/ZoKpabzm+f882RyXxwBxUWFwQRY+1Jzt7Or6Ay8Xvk+5cGLQPreBxf1tvZdNNevYuNG2"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;I$_C_BI_CCB_SF&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -4314,7 +5318,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DRVp5iRjs6dNv39w+ebKUk4kWm+0dKae1N65Msl93eJ9bAwBr3vnHD85PL8K4YmGzFsMR9lu8wquL6bP"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:jFWGRfBEOQS7d3SDjUK95m96jYAS+yjZlmgtqRi3WlIbQq5t8HPNpdEO8vP08oL0bWrocJezOvqnAxFQ"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -4357,7 +5361,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_BIDB_Schema"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SERVICE_NAME"/>
     <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sO/dAF5UKH9S50+3XFIkCoAyyIYJFnr0zSp6qkL2/IrqNBJHf5YQVCbb/vX8XPOHxL+G0np2RhEjeK6o"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:g6ttNA1ZVtSplyG0jdGG3G9Xxrz3yp5VYr5sbUxw/+/j8kcx4hKGb61LTv7+NaANVw9MJziAUDdVx4ef"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -4384,1006 +5388,6 @@
     <metadata connector="REJECT" name="REJECT">
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tELTOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_1"/>
-    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;I$_C_BI_CCB_SF&quot;"/>
-    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
-    <elementParameter field="TEXT" name="LABEL" value="I$_Table"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="TABLE" label="CM_BI_CCB_SF" name="tELTOracleInput_1">
-      <column comment="" key="false" length="50" name="PER_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="FIRSTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="LASTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="OVRD_MAIL_NAME1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="ACCT_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="ACCOUNT_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BILL_CYC_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="EMAILID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BILL_ADDR_SRCE_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="ADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="ADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="90" name="CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="POSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="COUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="STATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="0" name="CRSCORE" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="HOME_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="CELL_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="WORK_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="FAX_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SA_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SA_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="SADESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SA_STATUS" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BUDPLAN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SA_SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SF_PRODUCT_ID" nullable="true" originalLength="50" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="PREM_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PCOUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="90" name="PCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PPOSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PSTATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="MUNICIPAL_VAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="DISTRICT" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BILL_RTE_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PREM_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PER_OR_BUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="ACCT_REL_TYPE_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="REL_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="SA_END_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="CCB_RATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="RATE_EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="INSTALL_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="METER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="LL_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="LL_PER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="MULT_ITEM" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PERSONADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PERSONADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="90" name="PERSONCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="PERSONSTATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="PERSONPOSTAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="PERSONCOUNTRY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="START_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="STOP_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BUS_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="SP_TYPE_CD" nullable="true" originalLength="20" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
-  <node componentName="tELTOracleMap" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleMap_1"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
-    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12"/>
-    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
-    <elementParameter field="TEXT" name="HOST" value="context.connection_BIDB_Server"/>
-    <elementParameter field="TEXT" name="PORT" value="context.connection_BIDB_Port"/>
-    <elementParameter field="TEXT" name="DBNAME" value="context.connection_BIDB_ServiceName"/>
-    <elementParameter field="TEXT" name="USER" value="context.connection_BIDB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WgYwkJoUBpoa7BBsh3ugb6lba0hVBBPWfkIG5cObXKOVKSVyWa8Wa2t2W9aBmKgG4RHM8DcbHmDkMq2Z"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_kvCGcKHWEeiOO-D72W4Pcg-tELTOracleMap_1-PREVIEW.bmp"/>
-    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_BIDB_AdditionalParams"/>
-    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
-    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="true"/>
-    <elementParameter field="TABLE" name="HINT_OPTIONS">
-      <elementValue elementRef="HINT" value="&quot;DISTINCT&quot;"/>
-      <elementValue elementRef="POSITION" value="AFTER"/>
-      <elementValue elementRef="SQL_STMT" value="SELECT"/>
-    </elementParameter>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="TABLE" label="CM_BI_CCB_SF" name="table1">
-      <column comment="" key="true" length="50" name="PER_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="FIRSTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="LASTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="OVRD_MAIL_NAME1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="ACCT_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="ACCOUNT_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BILL_CYC_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="EMAILID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BILL_ADDR_SRCE_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="ADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="ADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="90" name="CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="POSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="COUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="STATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="0" name="CRSCORE" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="HOME_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="CELL_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="WORK_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="FAX_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="SA_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SA_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="SADESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SA_STATUS" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BUDPLAN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="SA_SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SF_PRODUCT_ID" nullable="true" originalLength="50" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="PREM_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PCOUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="90" name="PCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PPOSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PSTATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="MUNICIPAL_VAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="DISTRICT" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BILL_RTE_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PREM_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PER_OR_BUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="ACCT_REL_TYPE_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="REL_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="SA_END_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="CCB_RATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="RATE_EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="INSTALL_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="METER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="LL_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="LL_PER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="60" name="MULT_ITEM" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="UPDATE_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PERSONADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PERSONADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="90" name="PERSONCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="PERSONSTATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="PERSONPOSTAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="PERSONCOUNTRY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="INSERT_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="START_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="STOP_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BUS_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="SP_TYPE_CD" nullable="true" originalLength="20" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
-    </metadata>
-    <nodeData xsi:type="DBMapData">
-      <InputTables joinType="NO_JOIN" name="I$_C_BI_CCB_SF" tableName="I$_C_BI_CCB_SF">
-        <DBMapperTableEntries expression="" name="PER_ID" operator=""/>
-        <DBMapperTableEntries expression="" name="FIRSTNAME" operator=""/>
-        <DBMapperTableEntries name="LASTNAME" operator=""/>
-        <DBMapperTableEntries name="OVRD_MAIL_NAME1"/>
-        <DBMapperTableEntries name="ACCT_ID"/>
-        <DBMapperTableEntries name="ACCOUNT_TYPE"/>
-        <DBMapperTableEntries name="BILL_CYC_CD"/>
-        <DBMapperTableEntries name="EMAILID"/>
-        <DBMapperTableEntries name="BILL_ADDR_SRCE_FLG"/>
-        <DBMapperTableEntries name="ADDRESS1"/>
-        <DBMapperTableEntries name="ADDRESS2"/>
-        <DBMapperTableEntries name="CITY"/>
-        <DBMapperTableEntries name="POSTAL"/>
-        <DBMapperTableEntries name="COUNTRY"/>
-        <DBMapperTableEntries name="STATE"/>
-        <DBMapperTableEntries name="CRSCORE"/>
-        <DBMapperTableEntries name="HOME_NUM"/>
-        <DBMapperTableEntries name="CELL_NUM"/>
-        <DBMapperTableEntries name="WORK_NUM"/>
-        <DBMapperTableEntries name="FAX_NUM"/>
-        <DBMapperTableEntries name="SA_ID"/>
-        <DBMapperTableEntries name="SA_TYPE_CD"/>
-        <DBMapperTableEntries name="SADESC"/>
-        <DBMapperTableEntries name="SA_STATUS"/>
-        <DBMapperTableEntries name="BUDPLAN"/>
-        <DBMapperTableEntries name="SP_ID"/>
-        <DBMapperTableEntries name="SA_SP_ID"/>
-        <DBMapperTableEntries name="SF_PRODUCT_ID"/>
-        <DBMapperTableEntries name="PREM_TYPE"/>
-        <DBMapperTableEntries name="PCOUNTRY"/>
-        <DBMapperTableEntries name="PCITY"/>
-        <DBMapperTableEntries name="PPOSTAL"/>
-        <DBMapperTableEntries name="PSTATE"/>
-        <DBMapperTableEntries name="PADDRESS1"/>
-        <DBMapperTableEntries name="PADDRESS2"/>
-        <DBMapperTableEntries name="MUNICIPAL_VAL"/>
-        <DBMapperTableEntries name="DISTRICT"/>
-        <DBMapperTableEntries name="BILL_RTE_TYPE_CD"/>
-        <DBMapperTableEntries name="PREM_ID"/>
-        <DBMapperTableEntries name="PER_OR_BUS_FLG"/>
-        <DBMapperTableEntries name="ACCT_REL_TYPE_CD"/>
-        <DBMapperTableEntries name="REL_TYPE"/>
-        <DBMapperTableEntries name="SA_END_DT"/>
-        <DBMapperTableEntries name="CCB_RATE"/>
-        <DBMapperTableEntries name="RATE_EFFDT"/>
-        <DBMapperTableEntries name="INSTALL_DT"/>
-        <DBMapperTableEntries name="METER_ID"/>
-        <DBMapperTableEntries name="LL_ID"/>
-        <DBMapperTableEntries name="LL_PER_ID"/>
-        <DBMapperTableEntries name="MULT_ITEM"/>
-        <DBMapperTableEntries name="EFFDT"/>
-        <DBMapperTableEntries name="PERSONADDRESS1"/>
-        <DBMapperTableEntries name="PERSONADDRESS2"/>
-        <DBMapperTableEntries name="PERSONCITY"/>
-        <DBMapperTableEntries name="PERSONSTATE"/>
-        <DBMapperTableEntries name="PERSONPOSTAL"/>
-        <DBMapperTableEntries name="PERSONCOUNTRY"/>
-        <DBMapperTableEntries name="START_DT"/>
-        <DBMapperTableEntries name="STOP_DTTM"/>
-        <DBMapperTableEntries expression="" name="BUS_NUM" operator=""/>
-        <DBMapperTableEntries name="SP_TYPE_CD"/>
-      </InputTables>
-      <OutputTables name="table1" tableName="CM_BI_CCB_SF">
-        <DBMapperTableEntries expression="distinct I$_C_BI_CCB_SF.PER_ID" name="PER_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.FIRSTNAME" name="FIRSTNAME"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.LASTNAME" name="LASTNAME"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.OVRD_MAIL_NAME1" name="OVRD_MAIL_NAME1"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ACCT_ID" name="ACCT_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ACCOUNT_TYPE" name="ACCOUNT_TYPE"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BILL_CYC_CD" name="BILL_CYC_CD"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.EMAILID" name="EMAILID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BILL_ADDR_SRCE_FLG" name="BILL_ADDR_SRCE_FLG"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ADDRESS1" name="ADDRESS1"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ADDRESS2" name="ADDRESS2"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.CITY" name="CITY"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.POSTAL" name="POSTAL"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.COUNTRY" name="COUNTRY"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.STATE" name="STATE"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.CRSCORE" name="CRSCORE"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.HOME_NUM" name="HOME_NUM"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.CELL_NUM" name="CELL_NUM"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.WORK_NUM" name="WORK_NUM"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.FAX_NUM" name="FAX_NUM"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_ID" name="SA_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_TYPE_CD" name="SA_TYPE_CD"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SADESC" name="SADESC"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_STATUS" name="SA_STATUS"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BUDPLAN" name="BUDPLAN"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SP_ID" name="SP_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_SP_ID" name="SA_SP_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SF_PRODUCT_ID " name="SF_PRODUCT_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PREM_TYPE" name="PREM_TYPE"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PCOUNTRY" name="PCOUNTRY"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PCITY" name="PCITY"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PPOSTAL" name="PPOSTAL"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PSTATE" name="PSTATE"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PADDRESS1" name="PADDRESS1"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PADDRESS2" name="PADDRESS2"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.MUNICIPAL_VAL" name="MUNICIPAL_VAL"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.DISTRICT" name="DISTRICT"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BILL_RTE_TYPE_CD" name="BILL_RTE_TYPE_CD"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PREM_ID" name="PREM_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PER_OR_BUS_FLG" name="PER_OR_BUS_FLG"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.ACCT_REL_TYPE_CD" name="ACCT_REL_TYPE_CD"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.REL_TYPE" name="REL_TYPE"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SA_END_DT" name="SA_END_DT"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.CCB_RATE" name="CCB_RATE"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.RATE_EFFDT" name="RATE_EFFDT"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.INSTALL_DT" name="INSTALL_DT"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.METER_ID" name="METER_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.LL_ID" name="LL_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.LL_PER_ID" name="LL_PER_ID"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.MULT_ITEM" name="MULT_ITEM"/>
-        <DBMapperTableEntries expression="sysdate as update_dttm" name="UPDATE_DTTM"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.EFFDT" name="EFFDT"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONADDRESS1" name="PERSONADDRESS1"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONADDRESS2" name="PERSONADDRESS2"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONCITY" name="PERSONCITY"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONSTATE" name="PERSONSTATE"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONPOSTAL" name="PERSONPOSTAL"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.PERSONCOUNTRY" name="PERSONCOUNTRY"/>
-        <DBMapperTableEntries expression="sysdate as insert_dttm" name="INSERT_DTTM"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.START_DT" name="START_DT"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.STOP_DTTM" name="STOP_DTTM"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.BUS_NUM" name="BUS_NUM"/>
-        <DBMapperTableEntries expression="I$_C_BI_CCB_SF.SP_TYPE_CD " name="SP_TYPE_CD"/>
-      </OutputTables>
-    </nodeData>
-  </node>
-  <node componentName="tELTOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleOutput_1"/>
-    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="MERGE"/>
-    <elementParameter field="MEMO" name="WHERE_CLAUSE" show="false" value="&quot; &quot;"/>
-    <elementParameter field="CHECK" name="USE_MERGE_UPDATE" value="true"/>
-    <elementParameter field="TABLE" name="SCHEMA_UPDATE">
-      <elementValue elementRef="SCHEMA_COLUMN" value="PER_ID"/>
-      <elementValue elementRef="UPDATE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FIRSTNAME"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LASTNAME"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="OVRD_MAIL_NAME1"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACCT_ID"/>
-      <elementValue elementRef="UPDATE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNT_TYPE"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_CYC_CD"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EMAILID"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_ADDR_SRCE_FLG"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS1"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS2"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CITY"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="POSTAL"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="COUNTRY"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="STATE"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CRSCORE"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="HOME_NUM"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CELL_NUM"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="WORK_NUM"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FAX_NUM"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_ID"/>
-      <elementValue elementRef="UPDATE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_TYPE_CD"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SADESC"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_STATUS"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BUDPLAN"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SP_ID"/>
-      <elementValue elementRef="UPDATE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_SP_ID"/>
-      <elementValue elementRef="UPDATE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SF_PRODUCT_ID"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PREM_TYPE"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PCOUNTRY"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PCITY"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PPOSTAL"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PSTATE"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PADDRESS1"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PADDRESS2"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MUNICIPAL_VAL"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DISTRICT"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_RTE_TYPE_CD"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PREM_ID"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PER_OR_BUS_FLG"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACCT_REL_TYPE_CD"/>
-      <elementValue elementRef="UPDATE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="REL_TYPE"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_END_DT"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CCB_RATE"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RATE_EFFDT"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="INSTALL_DT"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="METER_ID"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LL_ID"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LL_PER_ID"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MULT_ITEM"/>
-      <elementValue elementRef="UPDATE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATE_DTTM"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EFFDT"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONADDRESS1"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONADDRESS2"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONCITY"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONSTATE"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONPOSTAL"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONCOUNTRY"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="INSERT_DTTM"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="START_DT"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="STOP_DTTM"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BUS_NUM"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SP_TYPE_CD"/>
-      <elementValue elementRef="UPDATE" value="true"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="USE_MERGE_UPDATE_WHERE" value="false"/>
-    <elementParameter field="TEXT" name="MERGE_UPDATE_WHERE_STRING" show="false" value="&quot;IND_UPDATE = 'U' &quot;"/>
-    <elementParameter field="CHECK" name="USE_MERGE_UPDATE_DELETE_WHERE" value="false"/>
-    <elementParameter field="TEXT" name="MERGE_UPDATE_DELETE_WHERE_STRING" show="false" value="&quot; &quot;"/>
-    <elementParameter field="CHECK" name="USE_MERGE_INSERT" value="true"/>
-    <elementParameter field="TABLE" name="SCHEMA_INSERT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="PER_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FIRSTNAME"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LASTNAME"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="OVRD_MAIL_NAME1"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACCT_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNT_TYPE"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_CYC_CD"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EMAILID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_ADDR_SRCE_FLG"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS1"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS2"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CITY"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="POSTAL"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="COUNTRY"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="STATE"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CRSCORE"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="HOME_NUM"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CELL_NUM"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="WORK_NUM"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FAX_NUM"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_TYPE_CD"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SADESC"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_STATUS"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BUDPLAN"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SP_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_SP_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SF_PRODUCT_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PREM_TYPE"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PCOUNTRY"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PCITY"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PPOSTAL"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PSTATE"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PADDRESS1"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PADDRESS2"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MUNICIPAL_VAL"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DISTRICT"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BILL_RTE_TYPE_CD"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PREM_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PER_OR_BUS_FLG"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACCT_REL_TYPE_CD"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="REL_TYPE"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SA_END_DT"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CCB_RATE"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RATE_EFFDT"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="INSTALL_DT"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="METER_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LL_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LL_PER_ID"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MULT_ITEM"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="UPDATE_DTTM"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="EFFDT"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONADDRESS1"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONADDRESS2"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONCITY"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONSTATE"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONPOSTAL"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PERSONCOUNTRY"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="INSERT_DTTM"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="START_DT"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="STOP_DTTM"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="BUS_NUM"/>
-      <elementValue elementRef="INSERT" value="true"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SP_TYPE_CD"/>
-      <elementValue elementRef="INSERT" value="true"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="USE_MERGE_INSERT_WHERE" value="false"/>
-    <elementParameter field="TEXT" name="MERGE_INSERT_WHERE_STRING" show="false" value="&quot;IND_UPDATE = 'I' &quot;"/>
-    <elementParameter field="TEXT" name="ELT_TABLE_NAME" value="&quot;CM_BI_CCB_SF&quot;"/>
-    <elementParameter field="TEXT" name="ELT_SCHEMA_NAME" value="&quot;&quot;"/>
-    <elementParameter field="CHECK" name="IS_TABLE_NAME_VARIABLE" value="false"/>
-    <elementParameter field="CHECK" name="USE_DIFFERENT_TABLE" value="false"/>
-    <elementParameter field="TEXT" name="DIFFERENT_TABLE_NAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="MAPPING_TYPE" name="MAPPING" value="oracle_id"/>
-    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" show="false" value="true"/>
-    <elementParameter field="TABLE" name="HINT_OPTIONS"/>
-    <elementParameter field="TEXT" name="LABEL" value="CM_BI_CCB_SF"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="TABLE" label="CM_BI_CCB_SF" name="tELTOracleOutput_1">
-      <column comment="" key="true" length="50" name="PER_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="FIRSTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="LASTNAME" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="OVRD_MAIL_NAME1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="ACCT_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="ACCOUNT_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BILL_CYC_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="EMAILID" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BILL_ADDR_SRCE_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="ADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="ADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="90" name="CITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="POSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="COUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="STATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="0" name="CRSCORE" nullable="true" pattern="" precision="-1" sourceType="NUMBER" type="id_BigDecimal" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="HOME_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="CELL_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="WORK_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="FAX_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="SA_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SA_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="SADESC" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SA_STATUS" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BUDPLAN" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="SA_SP_ID" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="SF_PRODUCT_ID" nullable="true" originalLength="50" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="60" name="PREM_TYPE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PCOUNTRY" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="90" name="PCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PPOSTAL" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PSTATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="MUNICIPAL_VAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="60" name="DISTRICT" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BILL_RTE_TYPE_CD" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PREM_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="PER_OR_BUS_FLG" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="50" name="ACCT_REL_TYPE_CD" nullable="false" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="REL_TYPE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="SA_END_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="CCB_RATE" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="RATE_EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="INSTALL_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="METER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="LL_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="LL_PER_ID" nullable="true" pattern="" precision="0" sourceType="CHAR" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="true" length="60" name="MULT_ITEM" nullable="false" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="UPDATE_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="EFFDT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PERSONADDRESS1" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="254" name="PERSONADDRESS2" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="90" name="PERSONCITY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="PERSONSTATE" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="PERSONPOSTAL" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="PERSONCOUNTRY" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="INSERT_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="START_DT" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="7" name="STOP_DTTM" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATE" type="id_Date" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="50" name="BUS_NUM" nullable="true" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true">
-        <additionalField key="Comment" value=""/>
-      </column>
-      <column comment="" key="false" length="20" name="SP_TYPE_CD" nullable="true" originalLength="20" pattern="" precision="0" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tDBInput_1" offsetLabelX="-20" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
@@ -5415,6 +5419,15 @@
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tELTOracleMap_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="TABLE" label="CM_BI_CCB_SF" lineStyle="9" metaname="table1" offsetLabelX="0" offsetLabelY="0" source="tELTOracleMap_1" target="tELTOracleOutput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="table1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tELTOracleMap_1" offsetLabelX="0" offsetLabelY="0" source="tELTOracleMap_1" target="tDBRow_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk5"/>
+  </connection>
+  <connection connectorName="TABLE" label="I$_C_BI_CCB_SF" lineStyle="9" metaname="tELTOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_1" target="tELTOracleMap_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_1"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBBulkExec_1" offsetLabelX="0" offsetLabelY="0" source="tDBBulkExec_1" target="tDBInput_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
@@ -5653,15 +5666,6 @@
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_5" offsetLabelX="0" offsetLabelY="0" source="tDBRow_5" target="tDBRow_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk13"/>
   </connection>
-  <connection connectorName="TABLE" label="I$_C_BI_CCB_SF" lineStyle="9" metaname="tELTOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tELTOracleInput_1" target="tELTOracleMap_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_1"/>
-  </connection>
-  <connection connectorName="TABLE" label="CM_BI_CCB_SF" lineStyle="9" metaname="table1" offsetLabelX="0" offsetLabelY="0" source="tELTOracleMap_1" target="tELTOracleOutput_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="table1"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tELTOracleMap_1" offsetLabelX="0" offsetLabelY="0" source="tELTOracleMap_1" target="tDBRow_3">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk5"/>
-  </connection>
   <note opaque="true" posX="992" posY="192" sizeHeight="96" sizeWidth="321" text="This  job loads SF data from ccb &#13;&#10;to staging BI.cm_bi_ccb_sf table with sf_product_id too. &#13;&#10;last updated 08.20.2019&#13;&#10;">
     <elementParameter field="TEXT" name="FONT_SIZE" value="8"/>
   </note>
@@ -5715,18 +5719,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tELTOracleInput_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_351ad17d-4c79-4ffe-8b7a-681bdc3fead0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KQWjKhmjsJHN7xNifli+ZRnznWFww3JCgF1Sb3yhYmk+L67eTWpTTD7S5NhfSTj+UbPh1/W4xVhI
-7pYPCWnSPQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3b847894-3949-410b-825d-9674ef100eb7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qYzDVsFsUX+7eyd4vcDIhBDUNFpUoPSEKSZm63Lqr6xLJymoM/haZ/aey37wrW5TOlCttXDvxQjk
-cdx3Vosf/g==</DigestValue></Reference></SignedInfo><SignatureValue>RVX/Jiu3AJ0DyQ8w59U6gzyVPSknfahOwnv4HnoLZwJkoHD+ne7QVzevX22e1hHBjQlUZiK40rYq
-PTxN3u37oBNdIXOLqCXrk98aF/o3AB+OATiDHlVsZXSEuRbwzNiDZmVsXQNc8YO/XGwLYy1p+3DW
-Wu63RsZjErt8dDOE72As2d9yTUfbW8iILymTutJnPEi9+eiC1nt3FUT1fN2gCVPY3jWiRrOaKnGn
-tbwxvi4WfL9sfxxyD/eF/u1AQS70ALaWOr/THHPfC4b6lTcyLcbRcL3mHpkj9yCuiec7UxDQRFTt
-aJtYisFtDRtTijoTMBjhTLCn3vNUfI/qt95tNQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2e487254-b8db-4fcb-b8e7-6f2f6324fa19"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>T7SZCBqx//K2pJZj0jbvSab/396zwco7wY8+khhNQrB3mDEZtMGhrJNguUcFr40eh6+cTqrqzn2T
+N/msFrkMrA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_68004c35-fe4f-4338-85a3-aa74d3f5f699"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uA+hzZlMCCEmBgCVxFWKrFgagK+nIo94OuAkbcT4FfrUX1L8CAdh2hW25WFukDstP+pYWWLEbcxg
+SGr5moGscA==</DigestValue></Reference></SignedInfo><SignatureValue>LbCfJWnwRsLEnhgPq5M2DpoUBURoKFDxd5cCUWGvxv4bRTzF4fdkCHCGd68dAWTQ43qj4mnpG3fQ
+wUyLM2HzByRo1/WkiLdExicULKjHyZO36hc/TwRkC1/nJBicwwYdsxtVgfA+/A469uCarzvLhsyu
+h+K6ilQeS3S6C7oS72JZrbHulezik1FTxWgoQFzsDL6SnMALdUsvGTyFiUqY6/kMR6IN0b19TjCD
+dm0BiX5k3ZF5iWl7IjRPBcoG9r5FyYgK1czOgOe1rwzLbcpErjfBMTm0NzpJqzMPbnlZgTct/KS2
+rXADXkIC9OQXYtFJkYF3OHvKP5GqdVL5gdjhVA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -5748,4 +5747,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3b847894-3949-410b-825d-9674ef100eb7" Target="#_351ad17d-4c79-4ffe-8b7a-681bdc3fead0"><Timestamp>2020-11-14 13:24:46</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_68004c35-fe4f-4338-85a3-aa74d3f5f699" Target="#_2e487254-b8db-4fcb-b8e7-6f2f6324fa19"><Timestamp>2020-11-14 14:00:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
