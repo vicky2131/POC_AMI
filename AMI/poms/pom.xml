@@ -32,7 +32,6 @@
     <module>jobs/process/SF/u4_0.1</module>
     <module>jobs/process/ami2c_0.1</module>
     <module>jobs/process/SF_Bill_Details/EXISTING_SF_jobs/sf_integration_job_prd_0.1</module>
-    <module>jobs/process/SF/sf_trigger_test_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
