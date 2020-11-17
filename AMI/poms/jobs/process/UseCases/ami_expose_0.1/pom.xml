@@ -9,15 +9,15 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.ami.service</groupId>
-  <artifactId>OnBoardingDemoJob</artifactId>
+  <artifactId>ami_expose</artifactId>
   <version>0.1.0</version>
   <packaging>bundle</packaging>
-  <name>AMI OnBoardingDemoJob-${project.version} (0.1,Job Designs) Bundle</name>
+  <name>AMI ami_expose-${project.version} (0.1,Job Designs) Bundle</name>
   <properties>
     <item.name>@ItemName@</item.name>
     <bundle.config.export.service>@BundleConfigExportService@</bundle.config.export.service>
     <bundle.config.bundle.classpath>@BundleConfigBundleClasspath@</bundle.config.bundle.classpath>
-    <talend.job.name>OnBoardingDemoJob</talend.job.name>
+    <talend.job.name>ami_expose</talend.job.name>
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
     <docker.skip>true</docker.skip>
@@ -33,9 +33,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
     <talend.routine.groupid>org.example.ami.code</talend.routine.groupid>
-    <talend.job.folder>demo/</talend.job.folder>
+    <talend.job.folder>usecases/</talend.job.folder>
     <bundle.config.import.package>@BundleConfigImportPackage@</bundle.config.import.package>
-    <talend.job.id>_QKNNUGZ8EeWm5YvsrIoYzQ</talend.job.id>
+    <talend.job.id>_A_Dr4CjjEeuAHNZX9c9f-w</talend.job.id>
     <talend.project.name.lowercase>ami</talend.project.name.lowercase>
     <talend.job.finalName>${talend.job.name}-bundle-${project.version}</talend.job.finalName>
     <lib.path>${resources.path}/lib</lib.path>
@@ -514,11 +514,6 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.8.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-lang3</artifactId>
       <version>3.7</version>
       <exclusions>
         <exclusion>
@@ -526,6 +521,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.8.1</version>
     </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
@@ -871,6 +871,11 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
+      <version>20.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
       <version>14.0.1</version>
       <exclusions>
         <exclusion>
@@ -878,11 +883,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>20.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
@@ -1756,7 +1756,7 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>jakarta.xml.bind</groupId>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>jakarta.xml.bind-api</artifactId>
       <version>2.3.2</version>
     </dependency>
@@ -2043,9 +2043,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>com.sun.jersey</groupId>
+      <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-client</artifactId>
-      <version>1.19</version>
+      <version>2.25.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2054,9 +2054,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.jersey.core</groupId>
+      <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-client</artifactId>
-      <version>2.25.1</version>
+      <version>1.19</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2142,9 +2142,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.jersey.core</groupId>
+      <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-server</artifactId>
-      <version>2.25.1</version>
+      <version>1.19</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2153,9 +2153,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>com.sun.jersey</groupId>
+      <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-server</artifactId>
-      <version>1.19</version>
+      <version>2.25.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2519,9 +2519,9 @@
       <version>2.2.1</version>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
+      <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
-      <version>2.0</version>
+      <version>2.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2530,9 +2530,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>javax.servlet.jsp</groupId>
+      <groupId>javax.servlet</groupId>
       <artifactId>jsp-api</artifactId>
-      <version>2.1</version>
+      <version>2.0</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -3408,6 +3408,11 @@
     <dependency>
       <groupId>javax.validation</groupId>
       <artifactId>validation-api</artifactId>
+      <version>2.0.1.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
       <version>1.1.0.Final</version>
       <exclusions>
         <exclusion>
@@ -3415,11 +3420,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>javax.validation</groupId>
-      <artifactId>validation-api</artifactId>
-      <version>2.0.1.Final</version>
     </dependency>
     <dependency>
       <groupId>org.apache.velocity</groupId>
