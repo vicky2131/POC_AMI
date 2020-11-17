@@ -32,6 +32,7 @@
     <module>jobs/process/SF/u4_0.1</module>
     <module>jobs/process/ami2c_0.1</module>
     <module>jobs/process/curl_0.1</module>
+    <module>jobs/process/ami2_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
