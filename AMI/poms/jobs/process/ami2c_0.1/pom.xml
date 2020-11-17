@@ -1999,11 +1999,6 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jersey-client-1.4</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
       <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-common</artifactId>
       <version>2.25.1</version>
@@ -2035,11 +2030,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jersey-core-1.4</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.glassfish.jersey.bundles.repackaged</groupId>
