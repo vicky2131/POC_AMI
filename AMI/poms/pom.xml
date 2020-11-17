@@ -13,6 +13,7 @@
     <module>code/beans</module>
     <module>jobs/process/demo1_0.1</module>
     <module>jobs/process/demo2_0.1</module>
+    <module>jobs/process/demo3_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
