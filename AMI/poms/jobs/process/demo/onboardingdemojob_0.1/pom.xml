@@ -479,9 +479,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>commons-httpclient-3.1</artifactId>
-      <version>6.0.0</version>
+      <groupId>commons-httpclient</groupId>
+      <artifactId>commons-httpclient</artifactId>
+      <version>3.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -514,11 +514,6 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
-      <version>3.8.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-lang3</artifactId>
       <version>3.7</version>
       <exclusions>
         <exclusion>
@@ -526,6 +521,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.8.1</version>
     </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
@@ -1756,7 +1756,7 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
+      <groupId>jakarta.xml.bind</groupId>
       <artifactId>jakarta.xml.bind-api</artifactId>
       <version>2.3.2</version>
     </dependency>
@@ -1869,9 +1869,9 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.hk2.external</groupId>
+      <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
-      <version>2.5.0-b32</version>
+      <version>1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1880,9 +1880,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>javax.inject</groupId>
+      <groupId>org.glassfish.hk2.external</groupId>
       <artifactId>javax.inject</artifactId>
-      <version>1</version>
+      <version>2.5.0-b32</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2505,11 +2505,6 @@
     <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>json-smart</artifactId>
-      <version>2.2.1</version>
-    </dependency>
-    <dependency>
-      <groupId>net.minidev</groupId>
-      <artifactId>json-smart</artifactId>
       <version>2.3</version>
       <exclusions>
         <exclusion>
@@ -2517,6 +2512,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>json-smart</artifactId>
+      <version>2.2.1</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
