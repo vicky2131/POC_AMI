@@ -6,7 +6,7 @@
     "title" : "SF Update API",
     "contact" : { }
   },
-  "host" : "bietldevar01.gmpvt.net:8088",
+  "host" : "hdpdevdnr02.gmpvt.net:21050",
   "schemes" : [ "http" ],
   "consumes" : [ "application/json" ],
   "produces" : [ "application/json" ],
