@@ -9,9 +9,9 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.ami.job</groupId>
-  <artifactId>sf_trigger_test</artifactId>
+  <artifactId>test_job</artifactId>
   <version>0.1.0</version>
-  <name>AMI sf_trigger_test-0.1.0 (0.1,Job Designs)</name>
+  <name>AMI test_job-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -24,7 +24,7 @@
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>AMI</talend.project.name>
     <talend.product.version>7.3.1.20200219_1130</talend.product.version>
-    <talend.job.finalName>sf_trigger_test_0_1</talend.job.finalName>
+    <talend.job.finalName>test_job_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.ami.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.ami.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,10 +33,10 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>sf_trigger_test</talend.job.name>
-    <talend.job.id>_SlTogCaAEeuo7JKm7LwmwA</talend.job.id>
+    <talend.job.name>test_job</talend.job.name>
+    <talend.job.id>_P1fCoCmpEeuQsckuiK5LHw</talend.job.id>
     <talend.project.id>0</talend.project.id>
-    <talend.job.folder>sf/</talend.job.folder>
+    <talend.job.folder>demo/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <talend.job.type>Standard</talend.job.type>
@@ -114,11 +114,6 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>ojdbc7</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
       <artifactId>org.talend.dataquality.parser</artifactId>
       <version>7.3.1</version>
     </dependency>
@@ -129,12 +124,12 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>talend-oracle-timestamptz</artifactId>
+      <artifactId>talend_file_enhanced_20070724</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
-      <artifactId>talend_file_enhanced_20070724</artifactId>
+      <artifactId>talendcsv</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
