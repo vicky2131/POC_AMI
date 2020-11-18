@@ -31,18 +31,18 @@
     <module>jobs/process/SF/u4_0.1</module>
     <module>jobs/process/ami2c_0.1</module>
     <module>jobs/process/SF/sf_trigger_test_0.1</module>
-    <module>jobs/process/demo1_0.1</module>
     <module>jobs/process/curl_0.1</module>
-    <module>jobs/process/SF/sf_trigger_cloud_0.1</module>
-    <module>jobs/process/demo/test_job_0.1</module>
-    <module>jobs/process/demo/gis_poc_0.1</module>
+    <module>jobs/process/demo1_0.1</module>
+    <module>jobs/process/ami2_0.1</module>
+    <module>jobs/process/UseCases/ami_expose_0.1</module>
+    <module>jobs/process/copy_of_curl_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
     <talend.project.name>AMI</talend.project.name>
     <encoding>UTF-8</encoding>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
