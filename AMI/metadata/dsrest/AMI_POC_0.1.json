@@ -3,7 +3,7 @@
   "info" : {
     "description" : "Exposing the ami_interval data via api cal",
     "version" : "2.0.0",
-    "title" : "GIS_POC",
+    "title" : "AMI_POC",
     "termsOfService" : "",
     "contact" : { }
   },
@@ -13,18 +13,15 @@
   "produces" : [ "application/json" ],
   "paths" : {
     "/intervaldata/" : {
-      "parameters" : [ ]
-    },
-    "/latlang/" : {
       "get" : {
-        "summary" : "get city",
+        "summary" : "Load Allevents",
         "parameters" : [ {
-          "name" : "prem_id",
+          "name" : "accountid",
           "in" : "query",
           "required" : true,
           "type" : "string"
         }, {
-          "name" : "prem_id",
+          "name" : "accountid",
           "in" : "header",
           "required" : true,
           "type" : "string"
