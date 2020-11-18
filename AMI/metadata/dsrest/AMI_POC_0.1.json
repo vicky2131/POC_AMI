@@ -7,7 +7,7 @@
     "termsOfService" : "",
     "contact" : { }
   },
-  "host" : "bietldevar01.gmpvt.net:8088",
+  "host" : "hdpdevdnr02.gmpvt.net:8088",
   "schemes" : [ "http" ],
   "consumes" : [ "application/json" ],
   "produces" : [ "application/json" ],
@@ -42,6 +42,20 @@
     }
   },
   "definitions" : {
+    "date" : {
+      "type" : "object",
+      "required" : [ "est_enddt", "est_startdt" ],
+      "properties" : {
+        "est_startdt" : {
+          "type" : "string",
+          "description" : "start date"
+        },
+        "est_enddt" : {
+          "type" : "string",
+          "description" : "end date"
+        }
+      }
+    },
     "Error" : {
       "type" : "object",
       "required" : [ "code" ],
@@ -62,20 +76,6 @@
       },
       "description" : "This general error structure is used throughout this API.",
       "example" : "{\n  \"code\": 400,\n  \"description\": \"Bad query parameter [$size]: Invalid integer value [abc]\",\n  \"reasonPhrase\": \"Bad Request\"\n}"
-    },
-    "date" : {
-      "type" : "object",
-      "required" : [ "est_enddt", "est_startdt" ],
-      "properties" : {
-        "est_startdt" : {
-          "type" : "string",
-          "description" : "start date"
-        },
-        "est_enddt" : {
-          "type" : "string",
-          "description" : "end date"
-        }
-      }
     }
   }
 }
