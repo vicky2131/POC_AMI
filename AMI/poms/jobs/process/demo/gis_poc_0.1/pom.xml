@@ -3241,11 +3241,6 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>talendcsv</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
       <groupId>co.cask.tephra</groupId>
       <artifactId>tephra-api</artifactId>
       <version>0.6.0</version>
