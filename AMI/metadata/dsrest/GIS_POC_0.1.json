@@ -31,7 +31,39 @@
         } ],
         "responses" : {
           "200" : {
-            "description" : "Status 200"
+            "description" : "Status 200",
+            "schema" : {
+              "required" : [ "API_NAME", "PREM_ID", "SQL_NAME", "message" ],
+              "type" : "object",
+              "properties" : {
+                "SQL_NAME" : {
+                  "type" : "string"
+                },
+                "message" : {
+                  "type" : "string"
+                },
+                "API_NAME" : {
+                  "type" : "string"
+                },
+                "PREM_ID" : {
+                  "type" : "string"
+                }
+              }
+            },
+            "headers" : {
+              "SQL_NAME" : {
+                "type" : "string"
+              },
+              "message" : {
+                "type" : "string"
+              },
+              "API_NAME" : {
+                "type" : "string"
+              },
+              "PREM_ID" : {
+                "type" : "string"
+              }
+            }
           }
         }
       },
