@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PRD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="PRD">
-    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_Password" value="enc:system.encryption.key.v1:u4rgjAQDCkBTGn/X0Gg7f8Di8qXJHLpi/P5Jk4WAr9IgRnY="/>
+    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_Password" value="enc:system.encryption.key.v1:GCFaO1AZD/cznhVrHKNizJgIcApRpCwypD4FvIB6KiGRrLg="/>
     <contextParameter comment="" name="connection_CCBPRD_AdditionalParams" prompt="connection_CCBPRD_AdditionalParams?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="AllowMultipleQueries=true"/>
     <contextParameter comment="" name="connection_CCBPRD_Server" prompt="connection_CCBPRD_Server?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="Exdadmc01"/>
     <contextParameter comment="" name="connection_CCBPRD_ServiceName" prompt="connection_CCBPRD_ServiceName?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="CCBPRD"/>
@@ -9,7 +9,7 @@
     <contextParameter comment="" name="connection_CCBPRD_Port" prompt="connection_CCBPRD_Port?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="1521"/>
   </context>
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_Password" value="enc:system.encryption.key.v1:Lc66rwDoyUnFcnm538UOuTlLHUJn2oHQf+7y6I1kU/vR9TE="/>
+    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_Password" value="enc:system.encryption.key.v1:E+1rWwet8EKGi5zLkxvJc7Vufvj5Zs+y8y7joi2kwQIDPEg="/>
     <contextParameter comment="" name="connection_CCBPRD_AdditionalParams" prompt="connection_CCBPRD_AdditionalParams?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="AllowMultipleQueries=true"/>
     <contextParameter comment="" name="connection_CCBPRD_Server" prompt="connection_CCBPRD_Server?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="Exdadmc01"/>
     <contextParameter comment="" name="connection_CCBPRD_ServiceName" prompt="connection_CCBPRD_ServiceName?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="CCBPRD"/>
@@ -59,7 +59,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:9UWbed0U7nH3IvMUXz0RYtvCjaVpWJp0DYjkTfn/"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:x3Iqrj7dz1L/xidills8PP5qyS23Ek+iR/ev9kCm"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -94,7 +94,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Uvym0UlYMztKU5HxDixTiEOm05aTLeB6jFLH9A0o"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:SS4ydoXq2YmsuBzzGW+FRonzotypwdxyURDjJgHX"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -144,7 +144,7 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;21050&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;etl&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:7MMyfSUWY+lhXDClw2ADhNJvcDyRSXzlXyy2Ktwz"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:126XgTIbsfHdh8xuEZK4ii70RvkPsfwscWe7AU+q"/>
     <elementParameter field="TEXT" name="IMPALA_ADDITIONAL_JDBC" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="IMPALA_PRINCIPAL" show="false" value="&quot;impala/_HOST@EXAMPLE.COM&quot;"/>
@@ -153,7 +153,7 @@
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hive.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:ATXb+WPuDmjgN7odKz33z0JL/Xyr76P0qk84Q86E24ntEoKDm/A="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:ZGBlwffBPWQPZQoXgP5imHT4x/XGGUWU7b3I0u4yTwc9mFYQzhI="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -209,7 +209,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="CISREAD"/>
     <elementParameter field="TEXT" name="USER" value="&quot;cisread&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1dNmA0AqXyzyO51CW17jy0WZ3W+RVihYc1m5BhzL9ZligK9E1Q=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:k1REY8+h/fq3G/cspwCDxV/gqfvL0lnRwUeZ11u0Q3RdNRYLsQ=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -262,7 +262,7 @@
       <column comment="" key="false" length="-1" name="NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out1" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row2.descr " name="NAME" nullable="true" type="id_String"/>
@@ -481,7 +481,7 @@
     <elementParameter field="CHECK" name="EXTRACTPATH" value="true"/>
     <elementParameter field="CHECK" name="CHECKPASSWORD" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DECRYPT_METHOD" show="false" value="ZIP4J_DECRYPT"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:mHcssiuVmmwtKW9h4K+xah7qOL0hYslN5D0DEOs4"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:UpC+pF2AMMO3nIk1bM2LOvdWvbLoA3/HwQy7F4MS"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
     <elementParameter field="CHECK" name="PRINTOUT" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
@@ -553,6 +553,7 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Admin/cout.csv&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -602,6 +603,7 @@
   </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
@@ -618,7 +620,7 @@
       <column comment="" key="false" length="-1" name="NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out2" sizeState="INTERMEDIATE">
         <mapperTableEntries expression="row7.NAME " name="NAME" nullable="true" type="id_String"/>
@@ -626,13 +628,11 @@
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row6" sizeState="INTERMEDIATE">
         <mapperTableEntries name="NAME" nullable="true" type="id_String"/>
       </inputTables>
-      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row7" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="StringHandling.UPCASE('row6.NAME') " name="NAME" nullable="true" operator="=" type="id_String"/>
-      </inputTables>
     </nodeData>
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="512">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -655,8 +655,29 @@
       <column comment="" key="false" length="-1" name="NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_jBX_ICXMEeuQJKIE7qlLIw-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+    </nodeData>
+  </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="320" posY="608">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Admin/jsout.csv&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -704,41 +725,43 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="608">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
-    <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
-    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_jBX_ICXMEeuQJKIE7qlLIw-tMap_3-PREVIEW.bmp"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
-    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
-    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
-    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
-    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+  <node componentName="tFileCompare" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileCompare_2"/>
+    <elementParameter field="CLOSED_LIST" name="COMPARISON_MODE" value="TEXT_CMP"/>
+    <elementParameter field="FILE" name="FILE" value="&quot;C:/Users/Admin/jsout.csv&quot;"/>
+    <elementParameter field="FILE" name="FILE_REF" value="&quot;C:/Users/Admin/sqlout.csv&quot;"/>
+    <elementParameter field="TEXT" name="DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files differ&quot;"/>
+    <elementParameter field="TEXT" name="NO_DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files are identical&quot;"/>
+    <elementParameter field="CHECK" name="PRINT" value="true"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
-      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
-    </nodeData>
+    <metadata connector="FLOW" name="tFileCompare_2">
+      <column defaultValue="" key="false" length="255" name="file" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="file_ref" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="component" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="1" name="differ" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tImpalaInput_1" offsetLabelX="0" offsetLabelY="0" source="tImpalaInput_1" target="tFlowToIterate_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
-  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFlowToIterate_1" target="tDBInput_1">
-    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
-    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate2"/>
-  </connection>
-  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFlowToIterate_1" target="tREST_1">
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFlowToIterate_1" target="tREST_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFlowToIterate_1" target="tDBInput_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate2"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -777,10 +800,12 @@
   </connection>
   <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tFileInputDelimited_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_2" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
   </connection>
   <connection connectorName="FLOW" label="out2" lineStyle="0" metaname="out2" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tLogRow_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out2"/>
   </connection>
   <subjob>
@@ -829,13 +854,23 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_317cb18d-a87e-4484-adbd-8b9eb5c2b0af"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>G5Y19QuYpKgGBFJBoZvraNNcVD1tK6yVIURSsE0ctxostbW+QHuJflugu43orRFcEiY0W18yu5DP&#13;
-l08L5JniUw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a4e7ddda-125b-4016-a49d-8872e3e7f318"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/ru+RKRyraY+xb9eSP8H1wTVHt08L+S9ZgrUhWVSNzzIazW5Wy6vVURlTgBFjaGulpxvUEkVOW/W&#13;
-7m5FvFgqOA==</DigestValue></Reference></SignedInfo><SignatureValue>IUab7YpzaUwi/FehJm6fwq5aHjCnL86/Aq4f3wWcd77UYsALtOh96UyS+8JxACX7/fAdkis+CK71&#13;
-9UzUUAsf5EEEElMTpRTpdJpMBExBk3xLVIzgEwU8ucLivE9U6od70/6FxtvXvIatHhwWfR9Krp7s&#13;
-v9CYnEP0GDkj0dFp3NnOTS4iRhpB16ldS09/dsPY3+/1U9uqe14/2i8Ad5UFt3p5L7L8UeU1FNsJ&#13;
-JnwnYbXHoih5lye9frorHaWfpj/29NWpkCE+FQWh9WpF1oPrd/Ew3vapcjWoCliO1Wubplm+RPeP&#13;
-WzdBCLmh/gy9F/ZPqx3alLI/pvGO93EafVtBKA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileCompare_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_81e797a8-0c81-4c25-9118-4135cd315e46"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g1GxpuNu5Or/kIkE6xi88nnZl1ffkPnFEpRkwKwKqztlTYzBG7Undxenr1Nx39uDO+nx9W/9K7rY&#13;
+DpQ7lxdDZw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_04983ee3-2a4d-47ca-9174-5af53e2be6ab"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GuYQsxOuNYfFSHOqTz8zWz9QvQH4JZIgX3BQFVZ0pFiUz7wOScQnfuz6+F8RQzK6lhA5XNVePmPk&#13;
+k9rDqFbAjw==</DigestValue></Reference></SignedInfo><SignatureValue>fLvkwKaDBK6EnS4Be7tDh18JT3/5heUbmlAweMNUGE8OUm9v4LpoeFQ97IK8bafNhtQgekVU7+Ip&#13;
+pPyUK/2U4s8KwYML4i6A3qfhIh8DGBYjPHNe1MhCgCksuZd/JrlVz7BMVDMQTVm7Aa375KmKeFVA&#13;
+olF2iw4xMKSyRt/mYZF5UY8NcybOFfVrHvGkag9Ja1CejHbMUWMR8Co2YBr7QjqTtu1rnRbZuSrw&#13;
+sAMESQe54mmyWJt1+htKni7VpWroiYsC26HyXrBbOO9gFZkFQ214XWTiGxuEWkNz2X8R09JBppKq&#13;
+wMxDRINCCr5Piu1ptWTECt+b+WIJ1vPOsDluxQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -857,4 +892,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a4e7ddda-125b-4016-a49d-8872e3e7f318" Target="#_317cb18d-a87e-4484-adbd-8b9eb5c2b0af"><Timestamp>2020-11-18 14:24:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_04983ee3-2a4d-47ca-9174-5af53e2be6ab" Target="#_81e797a8-0c81-4c25-9118-4135cd315e46"><Timestamp>2020-11-19 12:11:18</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
