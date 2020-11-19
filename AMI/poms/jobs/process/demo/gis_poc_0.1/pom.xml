@@ -125,9 +125,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.apache.ant</groupId>
+      <groupId>ant</groupId>
       <artifactId>ant</artifactId>
-      <version>1.9.1</version>
+      <version>1.6.5</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -136,9 +136,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>ant</groupId>
+      <groupId>org.apache.ant</groupId>
       <artifactId>ant</artifactId>
-      <version>1.6.5</version>
+      <version>1.9.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -203,11 +203,6 @@
     <dependency>
       <groupId>org.ow2.asm</groupId>
       <artifactId>asm</artifactId>
-      <version>5.0.3</version>
-    </dependency>
-    <dependency>
-      <groupId>org.ow2.asm</groupId>
-      <artifactId>asm</artifactId>
       <version>5.0.4</version>
       <exclusions>
         <exclusion>
@@ -215,6 +210,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.ow2.asm</groupId>
+      <artifactId>asm</artifactId>
+      <version>5.0.3</version>
     </dependency>
     <dependency>
       <groupId>org.ow2.asm</groupId>
@@ -351,6 +351,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>commons-beanutils</groupId>
+      <artifactId>commons-beanutils</artifactId>
+      <version>1.8.3</version>
     </dependency>
     <dependency>
       <groupId>commons-cli</groupId>
@@ -514,6 +519,11 @@
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
+      <version>3.8.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
       <version>3.7</version>
       <exclusions>
         <exclusion>
@@ -521,11 +531,6 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-lang3</artifactId>
-      <version>3.8.1</version>
     </dependency>
     <dependency>
       <groupId>commons-logging</groupId>
@@ -542,6 +547,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>commons-logging-1.1.1</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
@@ -800,6 +810,11 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>ehcache-2.10.6</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>ezmorph-1.0.6</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -1869,9 +1884,9 @@
       <version>6.0.0</version>
     </dependency>
     <dependency>
-      <groupId>javax.inject</groupId>
+      <groupId>org.glassfish.hk2.external</groupId>
       <artifactId>javax.inject</artifactId>
-      <version>1</version>
+      <version>2.5.0-b32</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1880,9 +1895,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.hk2.external</groupId>
+      <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
-      <version>2.5.0-b32</version>
+      <version>1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1992,6 +2007,11 @@
       <groupId>org.talend.libraries</groupId>
       <artifactId>jaxb-runtime-2.3.2</artifactId>
       <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>jaxen</groupId>
+      <artifactId>jaxen</artifactId>
+      <version>1.1.6</version>
     </dependency>
     <dependency>
       <groupId>com.github.stephenc.jcip</groupId>
@@ -2137,9 +2157,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>com.sun.jersey</groupId>
+      <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-server</artifactId>
-      <version>1.19</version>
+      <version>2.25.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2148,9 +2168,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.jersey.core</groupId>
+      <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-server</artifactId>
-      <version>2.25.1</version>
+      <version>1.19</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2498,6 +2518,11 @@
       </exclusions>
     </dependency>
     <dependency>
+      <groupId>net.sf.json-lib</groupId>
+      <artifactId>json-lib</artifactId>
+      <version>2.4.5-talend</version>
+    </dependency>
+    <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>json-smart</artifactId>
       <version>2.3</version>
@@ -2512,16 +2537,6 @@
       <groupId>net.minidev</groupId>
       <artifactId>json-smart</artifactId>
       <version>2.2.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>json_simple-1.1</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>jsonpath</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
@@ -2793,6 +2808,11 @@
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-jcl</artifactId>
+      <version>2.12.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-slf4j-impl</artifactId>
       <version>2.12.1</version>
     </dependency>
@@ -2893,6 +2913,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.oracle.ojdbc</groupId>
+      <artifactId>ojdbc8</artifactId>
+      <version>19.3.0.0</version>
     </dependency>
     <dependency>
       <groupId>com.squareup.okhttp</groupId>
@@ -3195,6 +3220,11 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>staxon-1.2</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>swagger-annotations</artifactId>
       <version>6.0.0</version>
     </dependency>
@@ -3237,7 +3267,17 @@
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
+      <artifactId>talend-oracle-timestamptz</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
       <artifactId>talend_file_enhanced_20070724</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talendcsv</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>
@@ -3413,11 +3453,6 @@
     <dependency>
       <groupId>javax.validation</groupId>
       <artifactId>validation-api</artifactId>
-      <version>2.0.1.Final</version>
-    </dependency>
-    <dependency>
-      <groupId>javax.validation</groupId>
-      <artifactId>validation-api</artifactId>
       <version>1.1.0.Final</version>
       <exclusions>
         <exclusion>
@@ -3425,6 +3460,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+      <version>2.0.1.Final</version>
     </dependency>
     <dependency>
       <groupId>org.apache.velocity</groupId>
@@ -3546,6 +3586,11 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>xmlsec-2.1.4</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>xom-1.2.7</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>

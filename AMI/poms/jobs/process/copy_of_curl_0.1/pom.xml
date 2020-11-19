@@ -89,11 +89,6 @@
     <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>accessors-smart</artifactId>
-      <version>1.1</version>
-    </dependency>
-    <dependency>
-      <groupId>net.minidev</groupId>
-      <artifactId>accessors-smart</artifactId>
       <version>1.2</version>
       <exclusions>
         <exclusion>
@@ -101,6 +96,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>net.minidev</groupId>
+      <artifactId>accessors-smart</artifactId>
+      <version>1.1</version>
     </dependency>
     <dependency>
       <groupId>net.hydromatic</groupId>
@@ -114,9 +114,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.apache.ant</groupId>
+      <groupId>ant</groupId>
       <artifactId>ant</artifactId>
-      <version>1.9.1</version>
+      <version>1.6.5</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -125,9 +125,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>ant</groupId>
+      <groupId>org.apache.ant</groupId>
       <artifactId>ant</artifactId>
-      <version>1.6.5</version>
+      <version>1.9.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -464,9 +464,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>commons-httpclient-3.1</artifactId>
-      <version>6.0.0</version>
+      <groupId>commons-httpclient</groupId>
+      <artifactId>commons-httpclient</artifactId>
+      <version>3.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1832,9 +1832,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.jersey.core</groupId>
+      <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-client</artifactId>
-      <version>2.25.1</version>
+      <version>1.19</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1843,9 +1843,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>com.sun.jersey</groupId>
+      <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-client</artifactId>
-      <version>1.19</version>
+      <version>2.25.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1931,9 +1931,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>com.sun.jersey</groupId>
+      <groupId>org.glassfish.jersey.core</groupId>
       <artifactId>jersey-server</artifactId>
-      <version>1.19</version>
+      <version>2.25.1</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -1942,9 +1942,9 @@
       </exclusions>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.jersey.core</groupId>
+      <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-server</artifactId>
-      <version>2.25.1</version>
+      <version>1.19</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2279,23 +2279,12 @@
     <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>json-smart</artifactId>
-      <version>2.3</version>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>*</groupId>
-        </exclusion>
-      </exclusions>
+      <version>2.2.1</version>
     </dependency>
     <dependency>
       <groupId>net.minidev</groupId>
       <artifactId>json-smart</artifactId>
-      <version>2.2.1</version>
-    </dependency>
-    <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>jsp-api</artifactId>
-      <version>2.0</version>
+      <version>2.3</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2307,6 +2296,17 @@
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>jsp-api</artifactId>
       <version>2.1</version>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.0</version>
       <exclusions>
         <exclusion>
           <artifactId>*</artifactId>
@@ -2659,6 +2659,11 @@
       </exclusions>
     </dependency>
     <dependency>
+      <groupId>com.oracle.ojdbc</groupId>
+      <artifactId>ojdbc8</artifactId>
+      <version>19.3.0.0</version>
+    </dependency>
+    <dependency>
       <groupId>com.squareup.okhttp</groupId>
       <artifactId>okhttp</artifactId>
       <version>2.7.5</version>
@@ -2854,6 +2859,11 @@
           <groupId>*</groupId>
         </exclusion>
       </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.talend.libraries</groupId>
+      <artifactId>talend-oracle-timestamptz</artifactId>
+      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.talend.libraries</groupId>
