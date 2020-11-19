@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:C7X6I0inWRyQkyQXBC1BYDp2kvQakN0wjajz3IzG"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:/5ZIMvJ0hXls5jl+jAJErd6cdigCQikc3km5Nutp"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5FWB6/EWuPulsVXTDiMQY53hPygnxZcmSUIA1REY"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:FJ7WcdYNgVw+Gi7kePd2uXVl0pJ+FfcMeZ9U1Okq"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -175,7 +175,7 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;21050&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;etl&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:h/QBdln7UOZexXRl+hQHedIOE+MEGUQS09e5Xxi/"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:vu/LNCikgcBM4e0EjKAX3vfNHc9FyIcbuitpuSFQ"/>
     <elementParameter field="TEXT" name="IMPALA_ADDITIONAL_JDBC" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="IMPALA_PRINCIPAL" show="false" value="&quot;impala/_HOST@EXAMPLE.COM&quot;"/>
@@ -184,7 +184,7 @@
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hive.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:ClzRqh2Wju0bDB5s+opiB0cc0hi7a0KR9jUheVlUr+Q0UBiFLHs="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:XPM7TQ2ZAZuZ7u5NgVN3aGUSRWhkbofRMpep6VP301+Vj4FIHzw="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -280,6 +280,80 @@
       <column defaultValue="" key="false" length="255" name="outputline" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tFileInputJSON" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputJSON_1"/>
+    <elementParameter field="CLOSED_LIST" name="READ_BY" value="XPATH"/>
+    <elementParameter field="CLOSED_LIST" name="JSON_PATH_VERSION" show="false" value="2_1_0"/>
+    <elementParameter field="CHECK" name="USEURL" value="false"/>
+    <elementParameter field="TEXT" name="URLPATH" show="false" value="&quot;http://localhost:8080/JSON/JSON_file.txt&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Admin/curlout.json&quot;"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/features/attributes&quot;"/>
+    <elementParameter field="TEXT" name="JSON_LOOP_QUERY" show="false" value="&quot;$&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="NAME"/>
+      <elementValue elementRef="QUERY" value="&quot;$.displayFieldname.NAME[*]&quot;"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="MAPPING_JSONPATH" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="NAME"/>
+      <elementValue elementRef="QUERY" value="&quot;$.displayFieldName.features[*]&quot;"/>
+    </elementParameter>
+    <elementParameter field="TABLE" name="MAPPINGXPATH">
+      <elementValue elementRef="SCHEMA_COLUMN" value="NAME"/>
+      <elementValue elementRef="QUERY" value="&quot;../attributes/NAME&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" show="false" value="true"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputJSON_1">
+      <column comment="" key="false" length="-1" name="NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Admin/jsout.csv&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="-1" name="NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
   <connection connectorName="FLOW" label="get_city" lineStyle="0" metaname="get_city" offsetLabelX="0" offsetLabelY="0" source="tRESTRequest_1" target="tFlowToIterate_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="get_city"/>
@@ -306,18 +380,30 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputJSON_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputJSON_1" target="tFileInputJSON_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tFileInputJSON_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputJSON_1" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTRequest_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_534478f5-0493-4066-b905-36b78ed70469"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nJkfc9hqYwCFQIErG3jvHTGI9Gqq9NEVsLn3hAnIyBI+2s4MWSo4lGY3KT88MGbtWqirXvn1yAjJ&#13;
-VhaVMtv4hA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e611635b-93cc-4813-a997-cde6f8a77fed"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jaGQai+SWiC/lUkx5UaXdNYq7eHzSyUzEVM4nb8qc21ntGXwn5Gz9OrhzyB+hwA1d+oeHjmQF49N&#13;
-PJyzaGVHlQ==</DigestValue></Reference></SignedInfo><SignatureValue>nZCs1XJWR/ktfo4v3HlW8JZTHAtfBS40otFDffqr9m1pDl1C7z/+97a97a0B5+vLEFpfX5EcDFa6&#13;
-6Ltv/iS+WbUXnlL00MTFB24B0krDC1UZV3GMWeGMrUa74o+ypaMqgsHlP+DCv2YLjqNGY6uWTAEI&#13;
-kmytKLozDS1JcXDEJ9tJjHaGhtf0C11/P+33A+VJy2+QnbqZby2QzhugxcG50Uc0LaUQhba3YaMy&#13;
-mW846AKhxpNR4i4siyKnGnVYInHa4+tAdrKmXSVnwc33YLBCor81p9hNT5lIjAj/uuFWHhR0oD7Q&#13;
-3427EiLUTBAQZzDva65zlquunkErNSqmSck18A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputJSON_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_041b101f-4242-448c-8853-f3695899ac05"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HrmLa445yCbsNP4pOrm1THvJ3NM90H8vO6zbUDxYV0R//qVh2eh75Fkr2yY6qYfDQuOP7RrnmEQv&#13;
+hxCjJeeXDg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_13708724-f4e8-4bcb-a1ad-0ebbde87983f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TWfRB9o4XcvzC3KddvqUwR/CLTzTMOyAuHb6CxXyPTaX4vQihhSwAHGadbhce9Zi2ylzVCKXyVvf&#13;
+cxnPqZ9SLw==</DigestValue></Reference></SignedInfo><SignatureValue>k+sTE02n2pTsGgjIk4R4uY7cy7OZzgaVT754wv2cv9+Ep9Qss4a/BHrCEqe28m7VZPtIZqB9IWK5&#13;
+gtobeTlcoi+FQGmU/pDol6iyUSgeSgvTWQOi67du3CS/R4iv1tS84O/M602wxJZK6SdLnLDLphpc&#13;
+RUaPRv3VMzOemsE7UKwlDKTJu0GVWuPy85KayVDq1hGua4Ruy34azqfZZdQIuAudACV6rAzzK9ZR&#13;
+7QKMFeEg3KrB7FjETuiTycz3f9lOMwUjvisFQ5PpCgpcD8WJijhs66DAx7JXmKyxE27ppZ1qNdbB&#13;
+A0kwBh+0/Ns08JqzfEV6uWp5WwWz2j9gVZzF4g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -339,4 +425,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e611635b-93cc-4813-a997-cde6f8a77fed" Target="#_534478f5-0493-4066-b905-36b78ed70469"><Timestamp>2020-11-19 13:51:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_13708724-f4e8-4bcb-a1ad-0ebbde87983f" Target="#_041b101f-4242-448c-8853-f3695899ac05"><Timestamp>2020-11-19 13:57:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
