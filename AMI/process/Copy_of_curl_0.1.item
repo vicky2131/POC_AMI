@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="PRD" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="PRD">
-    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_Password" value="enc:system.encryption.key.v1:t2QXhsGaNzYK7g90Mj+7V4Ds/r1deza2dsl9zFWFSnq83/g="/>
+    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_Password" value="enc:system.encryption.key.v1:EBlKk0Vr6Rk5uDUgP6XwVi15mTWpKLflWDn8Cj6C/0RgFhs="/>
     <contextParameter comment="" name="connection_CCBPRD_AdditionalParams" prompt="connection_CCBPRD_AdditionalParams?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="AllowMultipleQueries=true"/>
     <contextParameter comment="" name="connection_CCBPRD_Server" prompt="connection_CCBPRD_Server?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="Exdadmc01"/>
     <contextParameter comment="" name="connection_CCBPRD_ServiceName" prompt="connection_CCBPRD_ServiceName?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="CCBPRD"/>
@@ -9,7 +9,7 @@
     <contextParameter comment="" name="connection_CCBPRD_Port" prompt="connection_CCBPRD_Port?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="1521"/>
   </context>
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_Password" value="enc:system.encryption.key.v1:tWGsl8A7JSZXmqsGcZvOR7eNUhak7ArUvY9r0f2eHylnwjc="/>
+    <contextParameter comment="" name="connection_CCBPRD_Password" prompt="connection_CCBPRD_Password?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_Password" value="enc:system.encryption.key.v1:Qf4izFL7FpmIgv7sfxmZ4GZ+SD0BzpK8bxYv4kerM1caAEA="/>
     <contextParameter comment="" name="connection_CCBPRD_AdditionalParams" prompt="connection_CCBPRD_AdditionalParams?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="AllowMultipleQueries=true"/>
     <contextParameter comment="" name="connection_CCBPRD_Server" prompt="connection_CCBPRD_Server?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="Exdadmc01"/>
     <contextParameter comment="" name="connection_CCBPRD_ServiceName" prompt="connection_CCBPRD_ServiceName?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="CCBPRD"/>
@@ -18,7 +18,7 @@
     <contextParameter comment="" name="connection_CCBPRD_Port" prompt="connection_CCBPRD_Port?" promptNeeded="false" repositoryContextId="_nvDmUCgpEeuQJKIE7qlLIw" type="id_String" value="1521"/>
   </context>
   <parameters>
-    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="32"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="64"/>
     <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
     <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
@@ -59,7 +59,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:Ix48z6pxMLYNlM7YrNS6Yv0cTC0VCgt5Ugug6XDm"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:X60csm5j+hB/5RHMXY/RGo0VvOzEksagsj1vnOTf"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -94,7 +94,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:PPkx4eHBVSpZQihJvGAaG+Pq5V41jycvqME1ivap"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RfMFWLQn4eJbqHxggDZtZAY14HmFTDpJ4i9BkhWl"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -143,7 +143,7 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;21050&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;etl&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:9Igr2sreOAyqXhSkPnngmTh9ByBwckdjfOL3KWtO"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:7BbdGgmwIdmso2pd5lMp5dzlHfL19ZI1s1fVAT55"/>
     <elementParameter field="TEXT" name="IMPALA_ADDITIONAL_JDBC" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="IMPALA_PRINCIPAL" show="false" value="&quot;impala/_HOST@EXAMPLE.COM&quot;"/>
@@ -152,7 +152,7 @@
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hive.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:XQHr+GTMhg1rS37yUxYhvOfaBx+E/6OFg5D/tuHe4PHAON6ettQ="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:FVnu8BpfwzdGfc5dwEpSSdK/kKAkmAnTdHO4nzCnyOmg0YF6GLg="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -197,7 +197,7 @@
     <elementParameter field="CHECK" name="ROOTDIR" value="false"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" show="false" value="&quot;/bi_backups/backup&quot;"/>
     <elementParameter field="RADIO" name="USE_SINGLE_COMMAND" value="true"/>
-    <elementParameter field="MEMO_JAVA" name="COMMAND" value=" &quot;curl X GET https://maps.gmpvt.com/arcgis/rest/services/RestSpatialQuery/MapServer/4/query?geometry=(&quot;+ ((String)globalMap.get(&quot;row1.longitude&quot;)) +&quot;),(&quot;+ ((String)globalMap.get(&quot;row1.latitude&quot;)) +&quot;)&amp;geometryType=esriGeometryPoint&amp;inSR=4269&amp;spatialRel=esriSpatialRelIntersects&amp;relationParam=&amp;outFields=NAME&amp;returnGeometry=false&amp;returnTrueCurves=false&amp;returnIdsOnly=false&amp;returnCountOnly=false&amp;orderByFields=&amp;groupByFieldsForStatistics=&amp;outStatistics=&amp;returnZ=false&amp;returnM=false&amp;gdbVersion=&amp;historicMoment=&amp;returnDistinctValues=false&amp;resultOffset=&amp;resultRecordCount=&amp;queryByDistance=&amp;returnExtentOnly=false&amp;featureEncoding=esriDefault&amp;f=pjson &gt;&gt;C:/curlout.json&quot;"/>
+    <elementParameter field="MEMO_JAVA" name="COMMAND" value=" &quot;curl X GET https://maps.gmpvt.com/arcgis/rest/services/RestSpatialQuery/MapServer/4/query?geometry=(&quot;+ ((String)globalMap.get(&quot;row1.longitude&quot;)) +&quot;),(&quot;+ ((String)globalMap.get(&quot;row1.latitude&quot;)) +&quot;)&amp;geometryType=esriGeometryPoint&amp;inSR=4269&amp;spatialRel=esriSpatialRelIntersects&amp;relationParam=&amp;outFields=NAME&amp;returnGeometry=false&amp;returnTrueCurves=false&amp;returnIdsOnly=false&amp;returnCountOnly=false&amp;orderByFields=&amp;groupByFieldsForStatistics=&amp;outStatistics=&amp;returnZ=false&amp;returnM=false&amp;gdbVersion=&amp;historicMoment=&amp;returnDistinctValues=false&amp;resultOffset=&amp;resultRecordCount=&amp;queryByDistance=&amp;returnExtentOnly=false&amp;featureEncoding=esriDefault&amp;f=pjson &gt;C:/curlout.json&quot;"/>
     <elementParameter field="RADIO" name="USE_ARRAY_COMMAND" value="false"/>
     <elementParameter field="TABLE" name="ARRAY_COMMAND" show="false"/>
     <elementParameter field="CLOSED_LIST" name="OUTPUT" value="OUTPUT_TO_CONSOLE"/>
@@ -214,7 +214,7 @@
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import org.apache.commons.codec.binary.Base64;&#10;import org.apache.commons.codec.binary.StringUtils;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tFileOutputJSON" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="160">
+  <node componentName="tFileOutputJSON" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputJSON_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Admin/Downloads/Talend-Studio-20200219_1130-V7.3.1/Talend-Studio-20200219_1130-V7.3.1/workspace/out.json&quot;"/>
@@ -224,7 +224,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileOutputJSON_1"/>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="0">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
@@ -243,13 +243,8 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tLogRow_1"/>
   </node>
-  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="64">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-  </node>
   <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="384" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SERVICE_NAME"/>
@@ -262,7 +257,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="CISREAD"/>
     <elementParameter field="TEXT" name="USER" value="&quot;cisread&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:8hQNF6Fj3Qt0POtEzlrvjHkOyJrs1MDGVBixNySah+zYbUD4pw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:HuqOuTzZmLIzJQVkrLCroA1rZUyWskKQzZPE18YnxXEnfFtIcQ=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -296,13 +291,38 @@
       <column comment="" key="false" length="-1" name="descr" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tExtractJSONFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractJSONFields_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="READ_BY" value="JSONPATH"/>
+    <elementParameter field="CLOSED_LIST" name="JSON_PATH_VERSION" value="2_1_0"/>
+    <elementParameter field="PREV_COLUMN_LIST" name="JSONFIELD" value=""/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" show="false" value="&quot;/bills/bill/line&quot;"/>
+    <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$.bills.bill.line[*]&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING" show="false"/>
+    <elementParameter field="TABLE" name="MAPPING_4_JSONPATH"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="DESTINATION" show="false" value="tExtractJSONFields_1"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="UTF-8"/>
+    <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT_LIST" show="false" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tExtractJSONFields_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
   <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_jBX_ICXMEeuQJKIE7qlLIw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_U4_nwCkEEeuQJKIE7qlLIw-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -356,48 +376,14 @@
       <column comment="" key="false" length="-1" name="descr" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tExtractJSONFields" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="160">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractJSONFields_1"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
-    <elementParameter field="CLOSED_LIST" name="READ_BY" value="JSONPATH"/>
-    <elementParameter field="CLOSED_LIST" name="JSON_PATH_VERSION" value="2_1_0"/>
-    <elementParameter field="PREV_COLUMN_LIST" name="JSONFIELD" value=""/>
-    <elementParameter field="TEXT" name="LOOP_QUERY" show="false" value="&quot;/bills/bill/line&quot;"/>
-    <elementParameter field="TEXT" name="JSON_LOOP_QUERY" value="&quot;$.bills.bill.line[*]&quot;"/>
-    <elementParameter field="TABLE" name="MAPPING" show="false"/>
-    <elementParameter field="TABLE" name="MAPPING_4_JSONPATH"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
-    <elementParameter field="TEXT" name="DESTINATION" show="false" value="tExtractJSONFields_1"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;UTF-8&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="UTF-8"/>
-    <elementParameter field="CHECK" name="USE_LOOP_AS_ROOT" value="true"/>
-    <elementParameter field="CHECK" name="SPLIT_LIST" show="false" value="true"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tExtractJSONFields_1"/>
-    <metadata connector="REJECT" name="REJECT">
-      <column defaultValue="" key="false" length="255" name="errorJSONField" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-    </metadata>
-  </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tImpalaInput_1" offsetLabelX="0" offsetLabelY="0" source="tImpalaInput_1" target="tFlowToIterate_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
-  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tFlowToIterate_1" target="tSystem_1">
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" source="tFlowToIterate_1" target="tSystem_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
-  </connection>
-  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tFlowToIterate_1" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tFlowToIterate_1" target="tDBInput_1">
-    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
-    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate2"/>
-  </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tImpalaInput_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
   </connection>
   <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -430,12 +416,6 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
-  </subjob>
-  <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
@@ -445,13 +425,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9be85b3a-8bd1-449c-a3de-7c24c7d83155"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8WVRSWm9ajCYCWGf4U1vpTqrThB08Xai3Yv9pDcSQS64ePWRHIHIFpPrN/vdbcoui6T+fJC6EASr&#13;
-aqkOKDtA0w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ee8eab09-f618-4bfa-919b-6ac79a63921f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>sO8sLreet8rKwtaBel2wkbPezVwkCgGWSVnu4/cOzsKp+pVkckClzoJtlH5tJd40z6Nit0ozbEgH&#13;
-qHzkMriWVw==</DigestValue></Reference></SignedInfo><SignatureValue>lfNzRyV4jAnnsbnwWOQtdoolbih11luA2OpYGxkQDwLVPzYHA2Ot9dFs/kdU1bMadMU2rGbnrN2u&#13;
-nxgcr9WmhFF+/zpDTza/4DLThi53lzUmRzhERhxENRou4uVK2CeeXiHKojC411oGzpJWTb+eDhAb&#13;
-isFuJauPwuyKi8kBxhV9SbdzL/Ewl9RN8mZUZx6n1jhR9eWgOx1kydi/Uyf3jp63MvI7rZaBBhx+&#13;
-4AS2K9xPtREQ55uIsOGGP/0ARSsjJnZTv9JWL7wGAXqNd4XHc81vyuDgzPDXBu2ZslJJ4kY/qGwY&#13;
-PdYNeVcmeAU/208+O5si8tOMiEjkcwVjRTKoCg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_81c4988a-3485-4c7e-a04e-71634e7ffa17"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>z27rFsetJUtVobA7FJ5M2CfeoKcZk10aVCw+VM6Q+s+uLydxAx60pr4Vz3EH3wQbcPXDpkTp93+R&#13;
+azHDEduXmA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e2d81479-fd0c-4600-b0cf-e9cebf9a1dcf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>O+/L+Pd9kzn+1Fs6FO6XxfpCKE3nNvJkI2JGni7/BR7kPIEPHoYjRZyCIgrxCVL372Uc7TXbCDEL&#13;
+vkGNzN/Teg==</DigestValue></Reference></SignedInfo><SignatureValue>gOocEHDSoEklBm8KaqwA6MFyJiUnWpgTSb7EF3ICDDxXNlLC7p5/U6qs3ftiX24Y4s2JOfeUAYIV&#13;
+E7D/69jrqDrnenZDwzPpar1ICNNwp9xEwD0YR3MxXirQ/Hvf5fm0Au1L/ZqNLA0Ud2EWIzfYkW3f&#13;
+FqoCi7H+oLFRMuYFnHi+pPnoTqoSZj21jGmNyrb8yKmmwQb9cQLeOEh6mJBj3eqKOsRXFzOcyxD3&#13;
+zeYeC7tK3Cd16nBzX0xlsQ89Ts0AWv5nyHeZGqu7qazHCWW3GjSGjh+9/uuBbDldDcU8lQstH4Dt&#13;
+7IU9W7Yu28wkfNCa21uhbgDOmDcCEGtGycETUA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -473,4 +458,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ee8eab09-f618-4bfa-919b-6ac79a63921f" Target="#_9be85b3a-8bd1-449c-a3de-7c24c7d83155"><Timestamp>2020-11-17 18:40:13</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e2d81479-fd0c-4600-b0cf-e9cebf9a1dcf" Target="#_81c4988a-3485-4c7e-a04e-71634e7ffa17"><Timestamp>2020-11-19 14:06:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
