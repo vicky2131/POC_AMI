@@ -18,6 +18,7 @@
     "/latlang/" : {
       "get" : {
         "summary" : "get city",
+        "produces" : [ "application/json" ],
         "parameters" : [ {
           "name" : "prem_id",
           "in" : "query",
@@ -33,22 +34,7 @@
           "200" : {
             "description" : "Status 200",
             "schema" : {
-              "required" : [ "API_NAME", "PREM_ID", "SQL_NAME", "message" ],
-              "type" : "object",
-              "properties" : {
-                "SQL_NAME" : {
-                  "type" : "string"
-                },
-                "message" : {
-                  "type" : "string"
-                },
-                "API_NAME" : {
-                  "type" : "string"
-                },
-                "PREM_ID" : {
-                  "type" : "string"
-                }
-              }
+              "$ref" : "#/definitions/get_city"
             },
             "headers" : {
               "SQL_NAME" : {
@@ -61,7 +47,7 @@
                 "type" : "string"
               },
               "PREM_ID" : {
-                "type" : "string"
+                "type" : "integer"
               }
             }
           }
@@ -111,6 +97,24 @@
       },
       "description" : "This general error structure is used throughout this API.",
       "example" : "{\n  \"code\": 400,\n  \"description\": \"Bad query parameter [$size]: Invalid integer value [abc]\",\n  \"reasonPhrase\": \"Bad Request\"\n}"
+    },
+    "get_city" : {
+      "type" : "object",
+      "required" : [ "API_NAME", "PREM_ID", "SQL_NAME", "message" ],
+      "properties" : {
+        "SQL_NAME" : {
+          "type" : "string"
+        },
+        "message" : {
+          "type" : "string"
+        },
+        "API_NAME" : {
+          "type" : "string"
+        },
+        "PREM_ID" : {
+          "type" : "integer"
+        }
+      }
     }
   }
 }
