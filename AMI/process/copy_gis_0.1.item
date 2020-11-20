@@ -42,7 +42,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:t5Rtaa7SNNans4tPumApr+faQFdqBiXPCg669U+h"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:B2mQF7fjwXuCsG0EXQcSGv8uizb0ASJmqNOPUqAO"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -77,7 +77,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:lm59FEzD/3kns8+ulYcYEh+vAkTroTOH5wNmnw1C"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:hYScVYQGkscjbia0XyuUOcXYGSbT0pD0rmVZ75Ze"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -351,7 +351,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="384">
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1056" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
@@ -384,7 +384,7 @@
       <connections source="//@node.6/@nodeData/@inputTrees.0/@nodes.3" target="//@node.6/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.3" xsi:type="TalendXMLMap:Connection"/>
     </nodeData>
   </node>
-  <node componentName="tRESTResponse" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="384">
+  <node componentName="tRESTResponse" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="448">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRESTResponse_1"/>
     <elementParameter field="REST_RESPONSE_SCHEMA_TYPE" name="RESPONSE_TYPE" value="id_Document"/>
     <elementParameter field="CLOSED_LIST" name="STATUS_CODE" value="200"/>
@@ -460,7 +460,7 @@
     <elementParameter field="TEXT" name="PORT" value="&quot;21050&quot;"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;default&quot;"/>
     <elementParameter field="TEXT" name="USER" value="&quot;etl&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:tmWkyTJpj2StrYzzDtRmaUcLm2aUoVEe74Z+wjPn"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Enhe8USEREGXUAKIn6PXXKfZNpUQvve3MCGLpJRZ"/>
     <elementParameter field="TEXT" name="IMPALA_ADDITIONAL_JDBC" value="&quot;&quot;"/>
     <elementParameter field="CHECK" name="USE_KRB" value="false"/>
     <elementParameter field="TEXT" name="IMPALA_PRINCIPAL" show="false" value="&quot;impala/_HOST@EXAMPLE.COM&quot;"/>
@@ -469,7 +469,7 @@
     <elementParameter field="FILE" name="KEYTAB_PATH" show="false" value="&quot;/tmp/hive.keytab&quot;"/>
     <elementParameter field="CHECK" name="USE_SSL" value="false"/>
     <elementParameter field="FILE" name="SSL_TRUST_STORE" show="false" value="&quot;/home/usr1/ssl/trust_store.jks&quot;"/>
-    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:uE0Lb0EQzYeP+P+3du2zy6obGuPOz4R6GBblLBG96ywTP6mJHz0="/>
+    <elementParameter field="PASSWORD" name="SSL_TRUST_STORE_PASSWORD" show="false" value="enc:system.encryption.key.v1:8eLD1yx3fOQy56iuHCBaDN4HOO2a/Pav3Xod1nrTXc4kYJK/oms="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -575,7 +575,7 @@
     <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="CISREAD"/>
     <elementParameter field="TEXT" name="USER" value="&quot;cisread&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:gfB+ab5sr3G0cKIzjCw+z7wElf4xx2f+9kad8dZzLVQgG4+TEw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:owyliFGahFceiVjiL5d+CN1ZrbMXFT4XrFiHpKDhYx8vHFSKSA=="/>
     <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -691,7 +691,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
   </connection>
-  <connection connectorName="FLOW" label="row7" lineStyle="8" metaname="tFileInputDelimited_1" offsetLabelX="-50" offsetLabelY="5" source="tFileInputDelimited_1" target="tMap_2">
+  <connection connectorName="FLOW" label="row7" lineStyle="8" metaname="tFileInputDelimited_1" offsetLabelX="50" offsetLabelY="-4" source="tFileInputDelimited_1" target="tMap_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row7"/>
   </connection>
@@ -715,7 +715,7 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
-  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tSystem_1" offsetLabelX="11" offsetLabelY="-29" source="tSystem_1" target="tFileOutputDelimited_1">
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tSystem_1" offsetLabelX="-8" offsetLabelY="5" source="tSystem_1" target="tFileOutputDelimited_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
   </connection>
@@ -749,7 +749,7 @@
     <elementParameter field="TEXT" name="FONT_SIZE" value="8"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
-  <note opaque="false" posX="608" posY="-160" sizeHeight="97" sizeWidth="545" text="3) Getting Lat , lang and passing it as curl &#13;&#10;command to get the District NameFrom&#13;&#10;Gis Api">
+  <note opaque="false" posX="608" posY="-160" sizeHeight="97" sizeWidth="545" text="4) Getting Lat , lang and passing it as curl &#13;&#10;command to get the District NameFrom&#13;&#10;Gis Api">
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="255;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
@@ -758,7 +758,7 @@
     <elementParameter field="TEXT" name="FONT_SIZE" value="8"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
-  <note opaque="false" posX="1088" posY="-128" sizeHeight="65" sizeWidth="321" text="4) getting the json output and &#13;&#10;saving thefile in .json format">
+  <note opaque="false" posX="1088" posY="-128" sizeHeight="65" sizeWidth="321" text="5) getting the json output and &#13;&#10;saving thefile in .json format">
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="255;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
@@ -767,7 +767,7 @@
     <elementParameter field="TEXT" name="FONT_SIZE" value="8"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
-  <note opaque="false" posX="992" posY="128" sizeHeight="97" sizeWidth="321" text="5) getting the prem_id and passing &#13;&#10;it to the ccb query to get the ccb &#13;&#10;District name and saving it as .csv file">
+  <note opaque="false" posX="992" posY="128" sizeHeight="97" sizeWidth="321" text="3) getting the prem_id and passing &#13;&#10;it to the ccb query to get the ccb &#13;&#10;District name and saving it as .csv file">
     <elementParameter field="COLOR" name="NOTE_COLOR" value="255;255;255"/>
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="255;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
@@ -786,17 +786,17 @@
     <elementParameter field="TEXT" name="FONT_SIZE" value="8"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
-  <note opaque="false" posX="128" posY="288" sizeHeight="64" sizeWidth="257" text="7) Taking Gis input from .csv">
+  <note opaque="false" posX="192" posY="320" sizeHeight="64" sizeWidth="257" text="7) Taking Gis input from .csv">
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="255;0;0"/>
     <elementParameter field="TEXT" name="FONT_SIZE" value="8"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
-  <note opaque="false" posX="64" posY="416" sizeHeight="64" sizeWidth="257" text="8) Taking ccb input from .csv">
+  <note opaque="false" posX="128" posY="416" sizeHeight="64" sizeWidth="257" text="8) Taking ccb input from .csv">
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="255;0;0"/>
     <elementParameter field="TEXT" name="FONT_SIZE" value="8"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
-  <note opaque="false" posX="32" posY="512" sizeHeight="64" sizeWidth="288" text="9) Compare the ccb and Gis&#13;&#10;Input and Get Result">
+  <note opaque="false" posX="128" posY="544" sizeHeight="64" sizeWidth="288" text="9) Compare the ccb and Gis&#13;&#10;Input and Get Result">
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="255;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
@@ -805,7 +805,7 @@
     <elementParameter field="TEXT" name="FONT_SIZE" value="8"/>
     <elementParameter field="CHECK" name="FONT_BOLD" value="true"/>
   </note>
-  <note opaque="false" posX="768" posY="448" sizeHeight="64" sizeWidth="609" text="10) Map to get the otput in Desired Format and show the Api Response">
+  <note opaque="false" posX="768" posY="544" sizeHeight="64" sizeWidth="609" text="10) Map to get the otput in Desired Format and show the Api Response">
     <elementParameter field="COLOR" name="NOTETXT_COLOR" value="255;0;0"/>
     <elementParameter field="RADIO" name="NOTETXT_LEFT" value="true"/>
     <elementParameter field="RADIO" name="NOTETXT_CENTER" value="false"/>
@@ -829,13 +829,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_470b7e7d-d141-45dc-b31e-b15941bb5185"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>z3UcLqY26G3JERVW8h3q/TH1w2SHEeG86eWDk7jLi8Nl0CAiYCaF8DvYNRay10c1NZMkMZcc5Ujy&#13;
-qUlQezDlPw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8bbecd51-dbd3-49a8-8da3-54839d46796b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>yXzdJAfogEYKPXXLI0lV3NZfroeM7b9CMNgvM6J9YoZHaw8auGpivEkBNFFqPjxJddGt+CWybXuD&#13;
-/hosPMnLjw==</DigestValue></Reference></SignedInfo><SignatureValue>KYGpOOaQSIqzHL4zmbrCzFpYfZkR65cISBI6RIIH0q4iP+sM4ZfI/o0HzJLO++dM7VYpugwwA+eb&#13;
-VRpmruherY+p5g8mTbdVsuafHINRHw79RWwsjz5Thoiz3absuZbAZoJ/znbqMIaI4aMf6inpiFQX&#13;
-xCmuNwf1iSepsugV1VVH0slJqnfTIY1Bxn7uLuFSqGJ19Ge1rrVbhwegL3qMuf1ICGtsAiPFgHGD&#13;
-mWaL1pRRw+cIQMko3D0N1R1HjxpNlngdclO/5/54jE4ZqAIRIrVakqHkLZW1qD7JQj/m58S0TuaZ&#13;
-1gGahTwqjH7iXmJOb+mY1aRzaaAOA4qNGtKx8w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fa87bab3-1ae3-4937-a84d-6d8c06ba2f81"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>lpNv7tc8d5SFaa9F6Av3nGWxquHX+6fGrmMV640EfK/o+S2IsJ/z9mIIoeNea385ZUmN2/dqVD1E&#13;
+x4CqYURHzQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_d003da7f-c49e-4504-9ada-eee47ae639ba"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>B5RScUBCTXTPUryayGpsc6QD/9McFOjFkwpQXyiqYeX7Ew+bobxEY6bJlIZmC4Ofz3dRmxR8XVq7&#13;
+QT9/s9HX9Q==</DigestValue></Reference></SignedInfo><SignatureValue>ArkGbvdF5WoynTPSSP4MkDiWrBlbkpiERGKLv7+ugscQPUNcH/CsgJEyV/mYL8B4qUH5cp/uJ9NL&#13;
+O2Sm4M3YCcwZnphLIj1mVsaypUdJhVI3dJOcZq3QYC8HhkYL+b6GiPMYCpWS2mZPctRqGXKZvvwD&#13;
+XOo9+qqH69F7nO4xb2tj1LQSdb5dyPOScctO+EJtpjWAGTzV8vATgtxE5evQ29poidqTXyZStgwW&#13;
+pNI092f2hMvk34sbThLxlx1SMnvm9rU7vssDyxSrtgum6iNutSNcfSKVT3gFU7y9YNPK+KgrMPT+&#13;
+QAC7oTbB7oOhJPYvdby5tBMOGZJHP59lsBakeQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -857,4 +857,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8bbecd51-dbd3-49a8-8da3-54839d46796b" Target="#_470b7e7d-d141-45dc-b31e-b15941bb5185"><Timestamp>2020-11-20 14:24:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_d003da7f-c49e-4504-9ada-eee47ae639ba" Target="#_fa87bab3-1ae3-4937-a84d-6d8c06ba2f81"><Timestamp>2020-11-20 14:56:42</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
